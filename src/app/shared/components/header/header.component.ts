@@ -1,5 +1,4 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 import { Subscription } from 'rxjs';
 import { CartService } from 'src/app/core/cart/cart.service';
@@ -32,9 +31,9 @@ export class HeaderComponent implements OnInit, OnDestroy {
               private translateService: TranslateService,
               private categoryService: CategoryService,
               private cartService: CartService) {
-      this.subscriptions.push(this.userService.getIsLoggedIn().subscribe((data) => this.setLoggedInUser(data)));
-      this.subscriptions.push(this.cartService.isProductAdded().subscribe(data => this.updateCartCount(data)));
-    }
+    this.subscriptions.push(this.userService.getIsLoggedIn().subscribe((data) => this.setLoggedInUser(data)));
+    this.subscriptions.push(this.cartService.isProductAdded().subscribe(data => this.updateCartCount(data)));
+  }
   ngOnDestroy(): void {
     this.subscriptions.forEach(s => s.unsubscribe());
   }
@@ -92,7 +91,6 @@ export class HeaderComponent implements OnInit, OnDestroy {
     if (subCategory){
       URL = URL + '/' + subCategory;
     }
-    console.log(URL);
     this.router.navigateByUrl(URL);
   }
 
@@ -101,5 +99,16 @@ export class HeaderComponent implements OnInit, OnDestroy {
       const cartItems: Product[] = JSON.parse(localStorage.getItem('cartItems'));
       this.cartCount = cartItems.length;
     }
+  }
+
+  logout(){
+    localStorage.removeItem('isUserLoggedIn');
+    localStorage.removeItem('loggedInUser');
+    this.router.navigateByUrl('/');
+    let currentUrl = this.router.url;
+    this.router.navigateByUrl('/', {skipLocationChange: true}).then(() => {
+        this.router.navigate([currentUrl]);
+    });
+    this.ngOnInit();
   }
 }
