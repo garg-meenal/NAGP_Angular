@@ -1,0 +1,21 @@
+<!-- Carousel starts -->
+<ngb-carousel *ngIf="carouselImages">
+    <ng-template ngbSlide *ngFor="let img of carouselImages; index as i">
+      <div class="carousel-inner">
+        <img [src]="img" alt="Slide {{i + 1}}">
+      </div>
+    </ng-template>
+</ngb-carousel>
+<!-- Carousel end -->
+<!-- category section starts -->
+<div class="category-container">
+  <div class="category-heading">
+    <h3>{{'HOME.categories' | translate}}</h3>
+  </div>
+  <div class="category-items">
+    <app-categories></app-categories>
+  </div>
+  
+</div>
+<!-- category section ends -->
+

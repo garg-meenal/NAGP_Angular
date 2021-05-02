@@ -1,0 +1,38 @@
+a{
+    color: black;
+}
+button{
+    background-color: black;
+}
+ul{
+    list-style-type:none;
+}
+h4{
+    font-family: cursive;
+}
+.image-container{
+    margin-right: 0px !important;
+    img{
+        height: 225px;
+        width: 150px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+.cartItem{
+    font-family: cursive;
+    margin-left: 0px !important;
+    p:first-child{
+        margin-top:25px;
+    }
+    p{
+        margin-bottom:8px;
+    }
+    .sizeSelect{
+        margin-left:34px;
+    }
+    select{
+        width: 15%;
+    }
+}

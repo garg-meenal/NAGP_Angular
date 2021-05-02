@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 pr-1 pl-1">
+            <img [src]="productDetails.images[0]">
+        </div>
+        <div class="col-lg-4 pr-1 pl-1">
+            <img [src]="productDetails.images[1]">
+        </div>
+        <div class="col-lg-4">
+            <div class="container details-container pr-2">
+                <div class="mx-auto pt-2"><h2>{{productDetails.name}}</h2></div>
+                <div class="mx-auto pb-4">{{productDetails.description}}</div>
+                <div class="mx-auto pb-4 pt-2"><h4>{{productDetails.price | currency:'INR'}}</h4></div>
+                <div class="pt-2" style="width: 100%;">
+                    <form class="border border-light p-5" (ngSubmit)="addToCart()" #cartForm="ngForm">
+                        <div>{{'SHARED.PRODUCT.select_size' | translate}}</div>
+                        <select class="browser-default custom-select form-control" [(ngModel)]="productDetails.size" name="size" 
+                        #size = "ngModel" required >
+                            <option *ngFor="let size of availableSizes">{{size}}</option>
+                        </select>
+                        <div class="pt-2">{{'SHARED.PRODUCT.select_quantity' | translate}}</div>
+                        <select class="browser-default custom-select form-control" [(ngModel)]="productDetails.quantity" name="quantity" 
+                        required>
+                            <option *ngFor="let quantity of availableQuantity">{{quantity}}</option>
+                        </select>
+                        <button style="width: 100%;" title="Please select size/quantity" class="mt-4 btn btn-primary" type="submit" [disabled]="!cartForm.valid">{{'SHARED.PRODUCT.add_to_cart' | translate}}</button>
+                        <p><small>Delivery will take from 1-10 days</small></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

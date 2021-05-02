@@ -1,0 +1,61 @@
+<div class="container">
+    <div class="row">
+        <div class="mx-auto signup-container">
+            <form class="text-center border border-light p-5" (ngSubmit)="signup()" #signupForm="ngForm">
+                <p class="h4 mb-4">{{'SIGNUP.signup' | translate}}</p>
+                <div class="text-danger">{{errorMessage | translate}}</div>
+                <div class="mb-4">
+                    <input type="text" name="signupFullName" required class="form-control" [(ngModel)]="newUser.userName"
+                    placeholder="{{'SIGNUP.full_name' | translate}}" #name = "ngModel" [ngClass]="{'is-invalid':name.touched && !name.valid}"
+                    pattern="^(\w\w+)\s*(\w+)$">
+                    <span>
+                        <small class="text-danger" *ngIf="name.touched && name.errors?.required">{{'SIGNUP.name_required' | translate}}</small>
+                        <small class="text-danger" *ngIf="name.touched && name.errors">{{'SIGNUP.name_invalid' | translate}}</small>
+                    </span>
+                </div>
+                <div class="mb-4">
+                    <input type="email" name="signupEmail" email required class="form-control" placeholder="{{'SIGNUP.email' | translate}}"
+                    [(ngModel)]="newUser.email" #email = "ngModel" [ngClass]="{'is-invalid':email.touched && !email.valid}">
+                    <span>
+                        <small class="text-danger" *ngIf="email.touched && email.errors?.required">{{'LOGIN.email_required' | translate}}</small>
+                        <small class="text-danger" *ngIf="email.touched && email.errors?.email">{{'LOGIN.email_invalid' | translate}}</small>
+                    </span>
+                </div>
+                <div class="mb-4">
+                    <input type="password" name="signupPassword" required class="form-control" placeholder="{{'LOGIN.password' | translate}}" 
+                    [(ngModel)]="newUser.password" #pwd = "ngModel" [ngClass]="{'is-invalid':pwd.touched && !pwd.valid}">
+                    <span>
+                        <small class="text-danger" *ngIf="pwd.touched && pwd.errors?.required">{{'LOGIN.password_required' | translate}}</small>
+                    </span>
+                </div>
+                <div class="mb-4">
+                    <input type="text" name="signupPhone" required class="form-control" placeholder="{{'SIGNUP.phone' | translate}}"
+                    [(ngModel)]="newUser.phoneNumber" #phone = "ngModel" [ngClass]="{'is-invalid':phone.touched && !phone.valid}"
+                    maxlength="10" pattern="[0-9]{10}">
+                    <span>
+                        <small class="text-danger" *ngIf="phone.touched && phone.errors?.required">{{'SIGNUP.phone_required' | translate}}</small>
+                        <small class="text-danger" *ngIf="phone.touched && phone.errors?.pattern">{{'SIGNUP.phone_invalid' | translate}}</small>
+                    </span>
+                </div>
+                <div class="mb-4">
+                    <select class="browser-default custom-select form-control" [(ngModel)]="newUser.language" name="signupLanguage" 
+                    #language = "ngModel" required>
+                        <option selected disabled value="">{{'SIGNUP.select_language' | translate}}</option>
+                        <option value= "{{lang}}" *ngFor="let lang of languages">{{lang | languageDisplayName}}</option>
+                      </select>
+                      <span>
+                        <small class="text-danger" *ngIf="language.touched && language.errors?.required">{{'SIGNUP.language_required' | translate}}</small>
+                    </span>
+                </div>
+                <button class="my-4 btn btn-primary" type="submit" [disabled]="!signupForm.valid">{{'SIGNUP.signup' | translate}}</button>
+                <hr>
+                <p>{{'SIGNUP.by_clicking' | translate}}
+                  <em>{{'SIGNUP.signup' | translate}}</em> {{'SIGNUP.you_agree' | translate}}
+                  <a href="" target="_blank">{{'SIGNUP.terms' | translate}}</a></p>
+                  <p>{{'SIGNUP.already_a_member' | translate}}
+                    <a routerLink="/login"><strong>{{'LOGIN.login' | translate}}</strong></a>
+                  </p>
+              </form>
+        </div>
+    </div>
+</div>

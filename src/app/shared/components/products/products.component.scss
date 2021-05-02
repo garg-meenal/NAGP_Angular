@@ -1,0 +1,28 @@
+.image-container{
+    img{
+        height: 300px;
+        width: 207px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+.product-container{
+    p{
+        line-height: 20px;
+        margin-bottom: 5px;
+        font-family: cursive;
+    }
+}
+.hover{
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+  }
+.image-container:hover .hover{
+    display:block;
+}
+.no-product{
+    font-family: cursive;
+}

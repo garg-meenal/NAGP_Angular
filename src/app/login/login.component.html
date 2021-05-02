@@ -1,0 +1,32 @@
+
+<div class="container">
+    <div class="row">
+        <div class="mx-auto login-container">
+            <form class="text-center border border-light p-5" (ngSubmit)="login()" #loginForm="ngForm">
+                <p class="h4 mb-4">{{'LOGIN.login' | translate}}</p>
+                <div class="text-danger">{{errorMessage | translate}}</div>
+                <div class="mb-4">
+                    <input type="email" email required name="loginFormEmail" class="form-control" [(ngModel)]="emailId"
+                    placeholder="{{'LOGIN.email' | translate}}" #email = "ngModel" [ngClass]="{'is-invalid':email.touched && !email.valid}">
+                    <span>
+                        <small class="text-danger" *ngIf=" email.touched && email.errors?.required">{{'LOGIN.email_required' | translate}}</small>
+                        <small class="text-danger" *ngIf=" email.touched && email.errors?.email">{{'LOGIN.email_invalid' | translate}}</small>
+                    </span>
+                </div>
+
+                <div class="mb-4">
+                    <input type="password" required name="loginFormPassword" class="form-control" [(ngModel)]="password"
+                    placeholder="{{'LOGIN.password' | translate}}" #pwd= "ngModel" [ngClass]="{'is-invalid':pwd.touched && !pwd.valid}">
+                    <span>
+                        <small class="text-danger" *ngIf=" pwd.touched && pwd.errors?.required">{{'LOGIN.password_required' | translate}}</small>
+                    </span>
+                </div>
+                <button class="btn btn-primary" type="submit" [disabled]="!loginForm.valid">{{'LOGIN.login' | translate}}</button>
+                <p>{{'LOGIN.not_a_member' | translate}}
+                  <a routerLink="/signup"><strong>{{'SIGNUP.signup' | translate}}</strong></a>
+                </p>
+              </form>
+        </div>
+        
+    </div>
+</div>

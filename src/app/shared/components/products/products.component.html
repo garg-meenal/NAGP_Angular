@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4 mx_auto mt-4 text-center"><h3><strong>SHOP {{group | uppercase}}</strong></h3></div>
+        <div class="col-lg-4"></div> 
+    </div>
+</div>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+            <div class="row">
+                <div class="col-lg-4 mb-3" *ngFor="let product of products | filter: searchText" (click)="productDetails(product.id)" role="button">
+                    <div class="image-container" style=" position:relative;"><img [src]="product.images[0]">
+                        <div class="hover">
+                        <img [src]="product.images[1]" alt="">
+                      </div>
+                    </div>
+                    <div class="product-container">
+                        <p>{{product.name}}</p>
+                        <p>{{product.price | currency:'INR'}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+</div>

@@ -1,0 +1,136 @@
+<div class="container pt-2 pb-2">
+    <div class="row">
+        <div class="mx-auto">
+            <h3><strong>{{'CHECKOUT.heading' | translate}}</strong></h3>
+        </div> 
+    </div>        
+</div>
+<div class="container pt-4 pb-4">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="billing-container" style="background-color: #f4def5;">
+                <h4>{{'CHECKOUT.billing_info' | translate}}:</h4>
+                <table>
+                    <tr>
+                        <td><strong>{{'CHECKOUT.name' | translate}}:</strong></td>
+                        <td>{{loggedInUser.userName}}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>{{'CHECKOUT.email' | translate}}:</strong></td>
+                        <td>{{loggedInUser.email}}</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="shipping-container" style="background-color: #f4def5;">
+                <h4>{{'CHECKOUT.shipping_info' | translate}}:</h4>
+                <!--Show available address-->
+                <h5 *ngIf="deliveryAddresses">{{'CHECKOUT.select_address' | translate}}:</h5>
+                <div *ngFor="let address of deliveryAddresses; let i = index">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="addressRadio" id="i" 
+                        (click)="updateSelectedAddress(i)" [checked]="selectedAddress.id === address.id"> 
+                        <label class="form-check-label" for="i">
+                            {{address.name}}, {{address.street}}, {{address.city}}, {{address.state}}, {{address.pincode}}, <i class="fa fa-phone"> +91{{address.phoneNumber}}</i>
+                        </label>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary mt-2 mb-2 mx-auto" (click)="open(addressModal)">{{'CHECKOUT.add_address' | translate}}</button>
+            </div>
+        </div>
+        <div class="col-lg-4 order-container" style="background-color: #f4def5;">
+            <h4>{{'CHECKOUT.order_info' | translate}}:</h4>
+            <ul *ngIf="cartItems">
+                <li *ngFor="let item of cartItems">
+                    <p class="mb-1">{{item.name}}</p>
+                    <p><small class="float-right mr-5">{{'CHECKOUT.qty' | translate}} : {{item.quantity}}</small> {{'CHECKOUT.amount' | translate}} : {{item.price*item.quantity | currency:'INR'}}</p>
+                </li>
+            </ul>
+            <h5><strong>{{'CART.total_amount' | translate}}: {{totalAmount}}</strong></h5>
+        </div>
+    </div>
+</div>
+<div class="container pb-4">
+    <div class="row">
+        <div class="mx-auto">
+            <button class="btn btn-primary" style="background-color: black;" (click)="placeOrder()">{{'CHECKOUT.place_order' | translate}}</button>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<ng-template #addressModal let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">{{'CHECKOUT.add_address' | translate}}</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form>
+        <div class="form-group">
+            <div class="mb-3">
+                <input type="text" id="fullName" name="fullName" required class="form-control" [(ngModel)]="selectedAddress.name"
+                placeholder="{{'SIGNUP.full_name' | translate}}" #name = "ngModel" [ngClass]="{'is-invalid':name.touched && !name.valid}"
+                pattern="^(\w\w+)\s*(\w+)$">
+                <span>
+                    <small class="text-danger" *ngIf="name.touched && name.errors?.required">{{'SIGNUP.name_required' | translate}}</small>
+                    <small class="text-danger" *ngIf="name.touched && name.errors?.pattern">{{'SIGNUP.name_invalid' | translate}}</small>
+                </span>
+            </div>
+            <div class="mb-3">
+                <input type="text" name="street" required class="form-control" [(ngModel)]="selectedAddress.street"
+                placeholder="{{'CHECKOUT.address' | translate}}" #street = "ngModel" [ngClass]="{'is-invalid':street.touched && !street.valid}">
+                <span>
+                    <small class="text-danger" *ngIf="street.touched && street.errors?.required">{{'CHECKOUT.address_required' | translate}}</small>
+                </span>
+            </div>
+            <div class="mb-3">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <input type="text" name="pincode" required class="form-control" [(ngModel)]="selectedAddress.pinCode" maxlength="6"
+                        placeholder="{{'CHECKOUT.pincode' | translate}}" #pincode = "ngModel" [ngClass]="{'is-invalid':pincode.touched && !pincode.valid}" 
+                        pattern="[0-9]{6}">
+                        <span>
+                            <small class="text-danger" *ngIf="pincode.touched && pincode.errors?.required">{{'CHECKOUT.pincode_required' | translate}}</small>
+                            <small class="text-danger" *ngIf="pincode.touched && pincode.errors?.pattern">{{'CHECKOUT.pincode_invalid' | translate}}</small>
+                        </span>
+                    </div>
+                    <div class="col-lg-6">
+                        <input type="text" name="city" required class="form-control" [(ngModel)]="selectedAddress.city"
+                        placeholder="{{'CHECKOUT.city' | translate}}" #city = "ngModel" [ngClass]="{'is-invalid':city.touched && !city.valid}" 
+                        pattern="[A-Za-z ]{1,32}">
+                        <span>
+                            <small class="text-danger" *ngIf="city.touched && city.errors?.required">{{'CHECKOUT.city_required' | translate}}</small>
+                            <small class="text-danger" *ngIf="city.touched && city.errors?.pattern">{{'CHECKOUT.city_invalid' | translate}}</small>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <select class="browser-default custom-select form-control" [(ngModel)]="selectedAddress.state" name="state" 
+                    #state = "ngModel" required>
+                        <option selected disabled value="">{{'CHECKOUT.select_state' | translate}}</option>
+                        <option *ngFor="let state of indiaStates">{{state}}</option>
+                      </select>
+                      <span>
+                        <small class="text-danger" *ngIf="state.touched && state.errors?.required">{{'CHECKOUT.state_required' | translate}}</small>
+                    </span>
+            </div>
+            <div class="mb-3">
+                <input type="text" name="phone" required class="form-control" placeholder="{{'CHECKOUT.phone' | translate}}"
+                [(ngModel)]="selectedAddress.phoneNumber" #phone = "ngModel" [ngClass]="{'is-invalid':phone.touched && !phone.valid}"
+                maxlength="10" pattern="[0-9]{10}">
+                <span>
+                    <small class="text-danger" *ngIf="phone.touched && phone.errors?.required">{{'SIGNUP.phone_required' | translate}}</small>
+                    <small class="text-danger" *ngIf="phone.touched && phone.errors?.pattern">{{'SIGNUP.phone_invalid' | translate}}</small>
+                </span>
+            </div>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" (click)="modal.close('Close click')">{{'CHECKOUT.close' | translate}}</button>
+      <button type="button" class="btn btn-outline-dark" (click)="addAddress()">{{'CHECKOUT.add' | translate}}</button>
+    </div>
+  </ng-template>

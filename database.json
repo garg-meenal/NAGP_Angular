@@ -1,0 +1,1187 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "Meenal Garg",
+      "email": "meenalgarg@gmail.com",
+      "password": "123456",
+      "language": "en",
+      "address": [
+        {
+          "id": "1",
+          "name": "Meenal Garg",
+          "phoneNumber": "1234567890",
+          "street": "123 street",
+          "city": "Noida",
+          "state": "Uttar Pradesh",
+          "pincode": "123456"
+        },
+        {
+          "id": "2",
+          "name": "Meenal Garg",
+          "phoneNumber": "1234567890",
+          "street": "123 street",
+          "city": "Noida",
+          "state": "Uttar Pradesh",
+          "pincode": "123456"
+        }
+      ]
+    }
+  ],
+  "Orders": [
+    {
+      "name": "Meenal Garg",
+      "billingEmail": "meenalgarg@gmail.com",
+      "shippingAddress": {},
+      "products": [
+        {
+          "id": 31,
+          "name": "Cotton shirt Regular Fit",
+          "category": "topwear",
+          "subCategory": "shirt",
+          "group": "men",
+          "price": "899",
+          "images": [
+            "../../../../assets/images/products/men/1_0.webp",
+            "../../../../assets/images/products/men/1_1.webp"
+          ],
+          "description": "Short-sleeved shirt in a cotton weave with a turn-down collar and classic front.",
+          "size": "S",
+          "quantity": "1"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Meenal Garg",
+      "billingEmail": "meenalgarg@gmail.com",
+      "shippingAddress": {
+        "id": "2",
+        "name": "dasd",
+        "street": "dfgvdf",
+        "pinCode": "123456",
+        "city": "gdfg",
+        "state": "Andhra Pradesh",
+        "phoneNumber": "1234567890"
+      },
+      "products": [
+        {
+          "id": 7,
+          "name": "Cropped Shirt",
+          "category": "topwear",
+          "subCategory": "shirt",
+          "group": "women",
+          "price": "799",
+          "images": [
+            "../../../../assets/images/products/women/7_0.webp",
+            "../../../../assets/images/products/women/7_1.webp"
+          ],
+          "description": "Cropped shirt in woven fabric with a collar, buttons down the front and short, wide sleeves.",
+          "size": "S",
+          "quantity": "1"
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "topwear",
+      "subcategories": [
+        "shirt",
+        "t-shirt"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "bottomwear",
+      "subcategories": [
+        "jeans",
+        "shorts"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "footwear",
+      "subcategories": [
+        "shoes",
+        "flip-flops"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "accessories",
+      "subcategories": [
+        "belt"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "V neck t-shirt",
+      "category": "topwear",
+      "subCategory": "t-shirt",
+      "group": "women",
+      "price": "399",
+      "images": [
+        "../../../../assets/images/products/women/1_0.webp",
+        "../../../../assets/images/products/women/1_1.webp"
+      ],
+      "description": "Loose-fitting, V-neck T-shirt in soft jersey made from a cotton blend.",
+      "color": "green",
+      "tags": "women tshirt, tshirt women, tshirt green, green tshirt, green tshirt women, v neck tshirt, women t-shirt, t-shirt women, t-shirt green, green t-shirt, green t-shirt women, v neck t-shirt "
+    },
+    {
+      "id": 2,
+      "name": "T-shirt with a motif",
+      "category": "topwear",
+      "subCategory": "t-shirt",
+      "group": "women",
+      "price": "799",
+      "images": [
+        "../../../../assets/images/products/women/2_0.webp",
+        "../../../../assets/images/products/women/2_1.webp"
+      ],
+      "description": "Jersey T-shirt with a print motif.",
+      "color": "black",
+      "tags": "women tshirt, tshirt women, tshirt black, black tshirt, black tshirt women, round neck tshirt, women t-shirt, t-shirt women, t-shirt black, black t-shirt, black t-shirt women, round neck t-shirt "
+    },
+    {
+      "id": 3,
+      "name": "Oversized T-shirt",
+      "category": "topwear",
+      "subCategory": "t-shirt",
+      "group": "women",
+      "price": "1299",
+      "images": [
+        "../../../../assets/images/products/women/3_0.webp",
+        "../../../../assets/images/products/women/3_1.webp"
+      ],
+      "description": "Oversized T-shirt in printed cotton jersey with dropped shoulders and wide, elbow-length sleeves.",
+      "color": "purple",
+      "tags": "women tshirt, tshirt women, tshirt purple, purple tshirt, purple tshirt women, round neck tshirt, women t-shirt, t-shirt women, t-shirt purple, purple t-shirt, purple t-shirt women, round neck t-shirt "
+    },
+    {
+      "id": 4,
+      "name": "Black Cotton T-shirt",
+      "category": "topwear",
+      "subCategory": "t-shirt",
+      "group": "women",
+      "price": "499",
+      "images": [
+        "../../../../assets/images/products/women/4_0.webp",
+        "../../../../assets/images/products/women/4_1.webp"
+      ],
+      "description": "T-shirt in cotton jersey with a slightly wider neckline with a narrow trim.",
+      "color": "black",
+      "tags": "women tshirt, tshirt women, tshirt black, black tshirt, black tshirt women, round neck tshirt, women t-shirt, t-shirt women, t-shirt black, black t-shirt, black t-shirt women, round neck t-shirt "
+    },
+    {
+      "id": 5,
+      "name": "Low-necked T-shirt",
+      "category": "topwear",
+      "subCategory": "t-shirt",
+      "group": "women",
+      "price": "699",
+      "images": [
+        "../../../../assets/images/products/women/5_0.webp",
+        "../../../../assets/images/products/women/5_1.webp"
+      ],
+      "description": "T-shirt in soft viscose jersey with a deep neckline at the front.",
+      "color": "beige",
+      "tags": "women tshirt, tshirt women, tshirt beige, beige tshirt, beige tshirt women, deep round neck tshirt, women t-shirt, t-shirt women, t-shirt beige, beige t-shirt, beige t-shirt women, deep round neck t-shirt "
+    },
+    {
+      "id": 6,
+      "name": "Sleeveless T-shirt",
+      "category": "topwear",
+      "subCategory": "t-shirt",
+      "group": "women",
+      "price": "799",
+      "images": [
+        "../../../../assets/images/products/women/6_0.webp",
+        "../../../../assets/images/products/women/6_1.webp"
+      ],
+      "description": "Oversized, sleeveless Tshirt in soft cotton jersey with a round, rib-trimmed neckline.",
+      "color": "purple",
+      "tags": "women tshirt, tshirt women, tshirt purple, purple tshirt, purple tshirt women, round neck tshirt, women t-shirt, t-shirt women, t-shirt purple, purple t-shirt, purple t-shirt women, round neck t-shirt "
+    },
+    {
+      "id": 7,
+      "name": "Cropped Shirt",
+      "category": "topwear",
+      "subCategory": "shirt",
+      "group": "women",
+      "price": "799",
+      "images": [
+        "../../../../assets/images/products/women/7_0.webp",
+        "../../../../assets/images/products/women/7_1.webp"
+      ],
+      "description": "Cropped shirt in woven fabric with a collar, buttons down the front and short, wide sleeves.",
+      "color": "black",
+      "tags": "women tshirt, shirt women, shirt black, black shirt, black shirt women "
+    },
+    {
+      "id": 8,
+      "name": "Cotton flannel shirt",
+      "category": "topwear",
+      "subCategory": "shirt",
+      "group": "women",
+      "price": "999",
+      "images": [
+        "../../../../assets/images/products/women/8_0.webp",
+        "../../../../assets/images/products/women/8_1.webp"
+      ],
+      "description": "Wide shirt in soft cotton flannel with a collar, buttons down the front and a large chest pocket with a flap.",
+      "color": "peach",
+      "tags": "women shirt, shirt women, shirt peach, peach shirt, peach shirt women "
+    },
+    {
+      "id": 9,
+      "name": "Lyocell-blend shirt",
+      "category": "topwear",
+      "subCategory": "shirt",
+      "group": "women",
+      "price": "999",
+      "images": [
+        "../../../../assets/images/products/women/9_0.webp",
+        "../../../../assets/images/products/women/9_1.webp"
+      ],
+      "description": "Shirt in woven fabric made from a Tencel™ lyocell and LENZING™ ECOVERO™ viscose blend.",
+      "color": "white",
+      "tags": "women shirt, shirt women, shirt white, white shirt, white shirt women "
+    },
+    {
+      "id": 10,
+      "name": "Cotton shirt",
+      "category": "topwear",
+      "subCategory": "shirt",
+      "group": "women",
+      "price": "1199",
+      "images": [
+        "../../../../assets/images/products/women/10_0.webp",
+        "../../../../assets/images/products/women/10_1.webp"
+      ],
+      "description": "Shirt in airy cotton with a collar, buttons down the front, long sleeves with buttoned cuffs, and a rounded hem.",
+      "color": "white",
+      "tags": "women shirt, shirt women, shirt white, white shirt, white shirt women "
+    },
+    {
+      "id": 11,
+      "name": "Cotton shirt",
+      "category": "topwear",
+      "subCategory": "shirt",
+      "group": "women",
+      "price": "999",
+      "images": [
+        "../../../../assets/images/products/women/11_0.webp",
+        "../../../../assets/images/products/women/11_1.webp"
+      ],
+      "description": "Shirt in airy cotton with a collar, buttons down the front, long sleeves with buttoned cuffs, and a rounded hem.",
+      "color": "pink",
+      "tags": "women shirt, shirt women, shirt pink, pink shirt, pink shirt women "
+    },
+    {
+      "id": 12,
+      "name": "V-neck Shirt",
+      "category": "topwear",
+      "subCategory": "shirt",
+      "group": "women",
+      "price": "1299",
+      "images": [
+        "../../../../assets/images/products/women/12_0.webp",
+        "../../../../assets/images/products/women/12_1.webp"
+      ],
+      "description": "V-neck blouse in woven fabric with a sheen. Collar, buttons down the front, long sleeves and a rounded hem.",
+      "color": "green",
+      "tags": "women shirt, shirt women, shirt green, green shirt, green shirt women "
+    },
+    {
+      "id": 13,
+      "name": "Terry shorts",
+      "category": "bottomwear",
+      "subCategory": "shorts",
+      "group": "women",
+      "price": "799",
+      "images": [
+        "../../../../assets/images/products/women/13_0.webp",
+        "../../../../assets/images/products/women/13_1.webp"
+      ],
+      "description": "Shorts in soft terry. High waist with elasticated smocking, and pockets in the side seams.",
+      "color": "green",
+      "tags": "women shorts, shorts women, shorts green, green shorts, green shorts women"
+    },
+    {
+      "id": 14,
+      "name": "Lyocell-blend shorts",
+      "category": "bottomwear",
+      "subCategory": "shorts",
+      "group": "women",
+      "price": "1099",
+      "images": [
+        "../../../../assets/images/products/women/14_0.webp",
+        "../../../../assets/images/products/women/14_1.webp"
+      ],
+      "description": "Shorts in an airy Tencel™ lyocell and linen weave. High paper bag waist with covered elastication, and pleats at the front.",
+      "color": "multicolor",
+      "tags": "women shorts, shorts women, shorts multicolor, multicolor shorts, multicolor shorts women"
+    },
+    {
+      "id": 15,
+      "name": "Denim shorts",
+      "category": "bottomwear",
+      "subCategory": "shorts",
+      "group": "women",
+      "price": "1199",
+      "images": [
+        "../../../../assets/images/products/women/15_0.webp",
+        "../../../../assets/images/products/women/15_1.webp"
+      ],
+      "description": "Short, 5-pocket shorts in washed denim with a high waist, button fly and raw-edge hems.",
+      "color": "blue",
+      "tags": "women shorts, shorts women, shorts blue, blue shorts, blue shorts women"
+    },
+    {
+      "id": 16,
+      "name": "Linen-blend shorts",
+      "category": "bottomwear",
+      "subCategory": "shorts",
+      "group": "women",
+      "price": "1399",
+      "images": [
+        "../../../../assets/images/products/women/16_0.webp",
+        "../../../../assets/images/products/women/16_1.webp"
+      ],
+      "description": "High waist with covered elastication, discreet pockets in the side seams, an open back pocket and wide legs.",
+      "color": "white",
+      "tags": "women shorts, shorts women, shorts white, white shorts, white shorts women"
+    },
+    {
+      "id": 17,
+      "name": "Twill shorts",
+      "category": "bottomwear",
+      "subCategory": "shorts",
+      "group": "women",
+      "price": "799",
+      "images": [
+        "../../../../assets/images/products/women/17_0.webp",
+        "../../../../assets/images/products/women/17_1.webp"
+      ],
+      "description": "Shorts in cotton twill. High waist with covered elastication and a small frill trim at the top.",
+      "color": "black",
+      "tags": "women shorts, shorts women, shorts black, black shorts, black shorts women"
+    },
+    {
+      "id": 18,
+      "name": "High rise wide leg jeans",
+      "category": "bottomwear",
+      "subCategory": "jeans",
+      "group": "women",
+      "price": "1499",
+      "images": [
+        "../../../../assets/images/products/women/18_0.webp",
+        "../../../../assets/images/products/women/18_1.webp"
+      ],
+      "description": "Faded High-waist Jeans With A Five-pocket Design And A Wide-leg Fit. Zip Fly And Metal Top.",
+      "color": "pink",
+      "tags": "women jeans, jeans women, jeans pink, pink jeans, pink jeans women"
+    },
+    {
+      "id": 19,
+      "name": "The ‘90s Full-length Jeans",
+      "category": "bottomwear",
+      "subCategory": "jeans",
+      "group": "women",
+      "price": "1399",
+      "images": [
+        "../../../../assets/images/products/women/19_0.webp",
+        "../../../../assets/images/products/women/19_1.webp"
+      ],
+      "description": "High Rise - Wide Leg - Full Length.",
+      "color": "blue",
+      "tags": "women jeans, jeans women, jeans blue, blue jeans, blue jeans women"
+    },
+    {
+      "id": 20,
+      "name": "Wide-leg Ripped Jeans",
+      "category": "bottomwear",
+      "subCategory": "jeans",
+      "group": "women",
+      "price": "1499",
+      "images": [
+        "../../../../assets/images/products/women/20_0.webp",
+        "../../../../assets/images/products/women/20_1.webp"
+      ],
+      "description": "High-waist Jeans With A Wide-leg Design, Faded Effect, Five Pockets, Ripped Details At The Front And Seamless Hem.",
+      "color": "black",
+      "tags": "women jeans, jeans women, jeans black, black jeans, black jeans women"
+    },
+    {
+      "id": 21,
+      "name": "Hi-rise Straight Jeans",
+      "category": "bottomwear",
+      "subCategory": "jeans",
+      "group": "women",
+      "price": "1199",
+      "images": [
+        "../../../../assets/images/products/women/21_0.webp",
+        "../../../../assets/images/products/women/21_1.webp"
+      ],
+      "description": "Faded-effect High-waist Jeans Featuring A Straight Leg, Five-pocket Design, and Seamless Hems.",
+      "color": "blue",
+      "tags": "women jeans, jeans women, jeans blue, blue jeans, blue jeans women"
+    },
+    {
+      "id": 22,
+      "name": "White/Light grey shoes",
+      "category": "footwear",
+      "subCategory": "shoes",
+      "group": "women",
+      "price": "1799",
+      "images": [
+        "../../../../assets/images/products/women/22_0.webp",
+        "../../../../assets/images/products/women/22_1.webp"
+      ],
+      "description": "Shoes in imitation leather and imitation suede with a padded edge and tongue, and lacing at the front.",
+      "color": "white grey",
+      "tags": "women shoes, shoes women, shoes white, white shoes, white shoes women, grey shoes, grey shoes women"
+    },
+    {
+      "id": 23,
+      "name": "Platform shoes",
+      "category": "footwear",
+      "subCategory": "shoes",
+      "group": "women",
+      "price": "1499",
+      "images": [
+        "../../../../assets/images/products/women/23_0.webp",
+        "../../../../assets/images/products/women/23_1.webp"
+      ],
+      "description": "Platform trainers with lacing at the front, cotton canvas linings and insoles and rubber soles. Platform 3.5 cm.",
+      "color": "black",
+      "tags": "women shoes, shoes women, shoes black, black shoes, black shoes women"
+    },
+    {
+      "id": 24,
+      "name": "Chunky shoes",
+      "category": "footwear",
+      "subCategory": "shoes",
+      "group": "women",
+      "price": "1699",
+      "images": [
+        "../../../../assets/images/products/women/24_0.webp",
+        "../../../../assets/images/products/women/24_1.webp"
+      ],
+      "description": "Trainers with a padded edge and tongue, and lacing at the front. Mesh linings and insoles and chunky soles.",
+      "color": "beige",
+      "tags": "women shoes, shoes women, shoes beige, beige shoes, beige shoes women"
+    },
+    {
+      "id": 25,
+      "name": "Braided slides",
+      "category": "footwear",
+      "subCategory": "flip-flops",
+      "group": "women",
+      "price": "899",
+      "images": [
+        "../../../../assets/images/products/women/25_0.webp",
+        "../../../../assets/images/products/women/25_1.webp"
+      ],
+      "description": "Open-toe slides in imitation leather with a wide, braided foot strap. Height of soles 3.5 cm.",
+      "color": "purple",
+      "tags": "women flipflop, women flip flop, flipflop women, flip flop women, flipflop white, flip flop white, white flipflop, white flip flop, white fliflop women, white flip flop women"
+    },
+    {
+      "id": 26,
+      "name": "Leather slides",
+      "category": "footwear",
+      "subCategory": "flip-flops",
+      "group": "women",
+      "price": "1699",
+      "images": [
+        "../../../../assets/images/products/women/26_0.webp",
+        "../../../../assets/images/products/women/26_1.webp"
+      ],
+      "description": "Leather slides with wide foot straps that have a twisted detail at the front. Heel 1 cm.",
+      "color": "beige",
+      "tags": "women flipflop, women flip flop, flipflop women, flip flop women, flipflop beige, flip flop beige, beige flipflop, beige flip flop, beige fliflop women, beige flip flop women"
+    },
+    {
+      "id": 27,
+      "name": "Faux fur slides",
+      "category": "footwear",
+      "subCategory": "flip-flops",
+      "group": "women",
+      "price": "1499",
+      "images": [
+        "../../../../assets/images/products/women/27_0.webp",
+        "../../../../assets/images/products/women/27_1.webp"
+      ],
+      "description": "Slides in supersoft faux fur with wide, crossover foot straps. Height of soles 2.5 cm.",
+      "color": "beige",
+      "tags": "women flipflop, women flip flop, flipflop women, flip flop women, flipflop beige, flip flop beige, beige flipflop, beige flip flop, beige fliflop women, beige flip flop women"
+    },
+    {
+      "id": 28,
+      "name": "Utility Belt",
+      "category": "accessories",
+      "subCategory": "belt",
+      "group": "women",
+      "price": "499",
+      "images": [
+        "../../../../assets/images/products/women/28_0.webp",
+        "../../../../assets/images/products/women/28_1.webp"
+      ],
+      "description": "Belt With Metal Buckle.",
+      "color": "brown",
+      "tags": "women belt, belt women, belt brown, brown belt, brown belt women"
+    },
+    {
+      "id": 29,
+      "name": "Round Buckle Belt",
+      "category": "accessories",
+      "subCategory": "belt",
+      "group": "women",
+      "price": "699",
+      "images": [
+        "../../../../assets/images/products/women/29_0.webp",
+        "../../../../assets/images/products/women/29_1.webp"
+      ],
+      "description": "Stretch Belt With Round Contrast Buckle.",
+      "color": "brown",
+      "tags": "women belt, belt women, belt brown, brown belt, brown belt women"
+    },
+    {
+      "id": 30,
+      "name": "Black analog watch",
+      "category": "accessories",
+      "subCategory": "watch",
+      "group": "women",
+      "price": "5999",
+      "images": [
+        "../../../../assets/images/products/women/30_0.webp",
+        "../../../../assets/images/products/women/30_1.webp"
+      ],
+      "description": "This 34mm Daisy features a black sunray dial, three-hand movement and a black leather strap.",
+      "color": "black",
+      "tags": "women watch, watch women, watch black, black watch, black watch women"
+    },
+    {
+      "id": 31,
+      "name": "Cotton shirt Regular Fit",
+      "category": "topwear",
+      "subCategory": "shirt",
+      "group": "men",
+      "price": "899",
+      "images": [
+        "../../../../assets/images/products/men/1_0.webp",
+        "../../../../assets/images/products/men/1_1.webp"
+      ],
+      "description": "Short-sleeved shirt in a cotton weave with a turn-down collar and classic front.",
+      "color": "white blue",
+      "tags": "men shirt, shirt men, shirt white, white shirt, white shirt men, shirt blue, blue shirt, blue shirt men "
+    },
+    {
+      "id": 32,
+      "name": "Oxford shirt Regular Fit",
+      "category": "topwear",
+      "subCategory": "shirt",
+      "group": "men",
+      "price": "799",
+      "images": [
+        "../../../../assets/images/products/men/2_0.webp",
+        "../../../../assets/images/products/men/2_1.webp"
+      ],
+      "description": "Long-sleeved shirt in washed Oxford cotton with a button-down collar, chest pocket and yoke with a hanger loop at the back.",
+      "color": "blue",
+      "tags": "men shirt, shirt men, shirt blue, blue shirt, blue shirt men, "
+    },
+    {
+      "id": 33,
+      "name": "Oxford shirt Regular Fit",
+      "category": "topwear",
+      "subCategory": "shirt",
+      "group": "men",
+      "price": "799",
+      "images": [
+        "../../../../assets/images/products/men/3_0.webp",
+        "../../../../assets/images/products/men/3_1.webp"
+      ],
+      "description": "Long-sleeved shirt in washed Oxford cotton with a button-down collar, chest pocket and yoke with a hanger loop at the back.",
+      "color": "black",
+      "tags": "men shirt, shirt men, shirt black, black shirt, black shirt men "
+    },
+    {
+      "id": 34,
+      "name": "Slub jersey T-shirt",
+      "category": "topwear",
+      "subCategory": "t-shirt",
+      "group": "men",
+      "price": "799",
+      "images": [
+        "../../../../assets/images/products/men/4_0.webp",
+        "../../../../assets/images/products/men/4_1.webp"
+      ],
+      "description": "T-shirt in slub cotton jersey with sewn-in turn-ups at the sleeves.",
+      "color": "beige grey gray",
+      "tags": "men tshirt, tshirt men, tshirt beige, beige tshirt, beige tshirt men, tshirt grey, grey tshirt, grey tshirt men, tshirt gray, gray tshirt, gray tshirt men, men t-shirt, t-shirt men, t-shirt beige, beige t-shirt, beige t-shirt men, t-shirt grey, grey t-shirt, grey t-shirt men, t-shirt gray, gray t-shirt, gray t-shirt men"
+    },
+    {
+      "id": 35,
+      "name": "Round-neck T-shirt",
+      "category": "topwear",
+      "subCategory": "t-shirt",
+      "group": "men",
+      "price": "399",
+      "images": [
+        "../../../../assets/images/products/men/5_0.webp",
+        "../../../../assets/images/products/men/5_1.webp"
+      ],
+      "description": "Round-necked T-shirt in soft cotton jersey.",
+      "color": "white",
+      "tags": "men tshirt, tshirt men, tshirt white, white tshirt, white tshirt men, men t-shirt, t-shirt men, t-shirt white, white t-shirt, white t-shirt men"
+    },
+    {
+      "id": 36,
+      "name": "Relaxed Fit T-shirt",
+      "category": "topwear",
+      "subCategory": "t-shirt",
+      "group": "men",
+      "price": "999",
+      "images": [
+        "../../../../assets/images/products/men/6_0.webp",
+        "../../../../assets/images/products/men/6_1.webp"
+      ],
+      "description": "T-shirt in soft, printed cotton jersey. Relaxed fit with dropped shoulders and a round neckline with a narrow trim.",
+      "color": "white",
+      "tags": "men tshirt, tshirt men, tshirt white, white tshirt, white tshirt men, men t-shirt, t-shirt men, t-shirt white, white t-shirt, white t-shirt men"
+    },
+    {
+      "id": 37,
+      "name": "Black slim Jeans",
+      "category": "bottomwear",
+      "subCategory": "jeans",
+      "group": "men",
+      "price": "1299",
+      "images": [
+        "../../../../assets/images/products/men/7_0.webp",
+        "../../../../assets/images/products/men/7_1.webp"
+      ],
+      "description": "5-pocket jeans in washed denim with a regular waist, zip fly and slim legs.",
+      "color": "black",
+      "tags": "men jeans, jeans men, jeans black, black jeans, black jeans men"
+    },
+    {
+      "id": 38,
+      "name": "Demin slim Jeans",
+      "category": "bottomwear",
+      "subCategory": "jeans",
+      "group": "men",
+      "price": "1399",
+      "images": [
+        "../../../../assets/images/products/men/8_0.webp",
+        "../../../../assets/images/products/men/8_1.webp"
+      ],
+      "description": "5-pocket jeans in washed denim with a regular waist, zip fly and slim legs.",
+      "color": "blue",
+      "tags": "men jeans, jeans men, jeans blue, blue jeans, blue jeans men"
+    },
+    {
+      "id": 39,
+      "name": "Skinny Jeans",
+      "category": "bottomwear",
+      "subCategory": "jeans",
+      "group": "men",
+      "price": "1299",
+      "images": [
+        "../../../../assets/images/products/men/9_0.webp",
+        "../../../../assets/images/products/men/9_1.webp"
+      ],
+      "description": "5-pocket jeans in washed stretch denim with a regular waist, zip fly and button, and skinny legs.",
+      "color": "black grey gray",
+      "tags": "men jeans, jeans men, jeans black, black jeans, black jeans men, jeans gray, gray jeans, gray jeans men, jeans grey, grey jeans, grey jeans men"
+    },
+    {
+      "id": 40,
+      "name": "Cotton shorts",
+      "category": "bottomwear",
+      "subCategory": "shorts",
+      "group": "men",
+      "price": "799",
+      "images": [
+        "../../../../assets/images/products/men/10_0.webp",
+        "../../../../assets/images/products/men/10_1.webp"
+      ],
+      "description": "Shorts in soft, washed cotton with a zip fly, side pockets and a welt back pocket with a button.",
+      "color": "black",
+      "tags": "men shorts, shorts men, shorts black, black shorts, black shorts men"
+    },
+    {
+      "id": 41,
+      "name": "Sweatshirt shorts",
+      "category": "bottomwear",
+      "subCategory": "shorts",
+      "group": "men",
+      "price": "1299",
+      "images": [
+        "../../../../assets/images/products/men/11_0.webp",
+        "../../../../assets/images/products/men/11_1.webp"
+      ],
+      "description": "Knee-length shorts in sweatshirt fabric with an elasticated, drawstring waist, side pockets and an open back pocket.",
+      "color": "green",
+      "tags": "men shorts, shorts men, shorts green, green shorts, green shorts men"
+    },
+    {
+      "id": 42,
+      "name": "Cotton chino shorts",
+      "category": "bottomwear",
+      "subCategory": "shorts",
+      "group": "men",
+      "price": "1399",
+      "images": [
+        "../../../../assets/images/products/men/12_0.webp",
+        "../../../../assets/images/products/men/12_1.webp"
+      ],
+      "description": "Regular, elasticated waist with a concealed drawstring, zip fly and button, diagonal side pockets and jetted back pockets.",
+      "color": "black",
+      "tags": "men shorts, shorts men, shorts black, black shorts, black shorts men"
+    },
+    {
+      "id": 43,
+      "name": "Mesh shoes",
+      "category": "footwear",
+      "subCategory": "shoes",
+      "group": "men",
+      "price": "1899",
+      "images": [
+        "../../../../assets/images/products/men/13_0.webp",
+        "../../../../assets/images/products/men/13_1.webp"
+      ],
+      "description": "Trainers in mesh and imitation leather with lacing at the front. Height of soles 6.3 cm.",
+      "color": "white",
+      "tags": "men shoes, shoes men, shoes white, white shoes, white shoes men"
+    },
+    {
+      "id": 44,
+      "name": "Cotton canvas shoes",
+      "category": "footwear",
+      "subCategory": "shoes",
+      "group": "men",
+      "price": "1399",
+      "images": [
+        "../../../../assets/images/products/men/14_0.webp",
+        "../../../../assets/images/products/men/14_1.webp"
+      ],
+      "description": "Trainers in sturdy cotton canvas with lacing and a tongue at the front. Height of soles 3.1 cm.",
+      "color": "white",
+      "tags": "men shoes, shoes men, shoes white, white shoes, white shoes men"
+    },
+    {
+      "id": 45,
+      "name": "Chunky shoes",
+      "category": "footwear",
+      "subCategory": "shoes",
+      "group": "men",
+      "price": "1999",
+      "images": [
+        "../../../../assets/images/products/men/15_0.webp",
+        "../../../../assets/images/products/men/15_1.webp"
+      ],
+      "description": "Trainers in knitted fabric with imitation leather sections, a padded top edge and tongue, and reflective laces at the front.",
+      "color": "black",
+      "tags": "men shoes, shoes men, shoes black, black shoes, black shoes men"
+    },
+    {
+      "id": 46,
+      "name": "Printed pool flip flops",
+      "category": "footwear",
+      "subCategory": "flip-flops",
+      "group": "men",
+      "price": "999",
+      "images": [
+        "../../../../assets/images/products/men/16_0.webp",
+        "../../../../assets/images/products/men/16_1.webp"
+      ],
+      "description": "Pool shoes in printed imitation leather with moulded insoles and patterned soles. Height of soles 2.8 cm.",
+      "color": "white",
+      "tags": "men flipflop, men flip flop, flipflop men, flip flop men, flipflop white, flip flop white, white flipflop, white flip flop, white fliflop men, white flip flop men"
+    },
+    {
+      "id": 47,
+      "name": "Pool flip flops",
+      "category": "footwear",
+      "subCategory": "flip-flops",
+      "group": "men",
+      "price": "899",
+      "images": [
+        "../../../../assets/images/products/men/17_0.webp",
+        "../../../../assets/images/products/men/17_1.webp"
+      ],
+      "description": "Pool flip flops with moulded soles that are fluted underneath.",
+      "color": "green",
+      "tags": "men flipflop, men flip flop, flipflop men, flip flop men, flipflop green, flip flop green, green flipflop, green flip flop, green fliflop men, green flip flop men"
+    },
+    {
+      "id": 48,
+      "name": "Pool flip flops",
+      "category": "footwear",
+      "subCategory": "flip-flops",
+      "group": "men",
+      "price": "899",
+      "images": [
+        "../../../../assets/images/products/men/18_0.webp",
+        "../../../../assets/images/products/men/18_1.webp"
+      ],
+      "description": "Pool flip flops with moulded soles that are fluted underneath.",
+      "color": "black",
+      "tags": "men flipflop, men flip flop, flipflop men, flip flop men, flipflop black, flip flop black, black flipflop, black flip flop, black fliflop men, black flip flop men"
+    },
+    {
+      "id": 49,
+      "name": "Black belt",
+      "category": "accessories",
+      "subCategory": "belt",
+      "group": "men",
+      "price": "499",
+      "images": [
+        "../../../../assets/images/products/men/19_0.webp",
+        "../../../../assets/images/products/men/19_1.webp"
+      ],
+      "description": "Belt in split leather with a metal buckle. Width 3.5 cm.",
+      "color": "black",
+      "tags": "men belt, belt men, belt black, black belt, black belt men"
+    },
+    {
+      "id": 50,
+      "name": "Leather belt",
+      "category": "accessories",
+      "subCategory": "belt",
+      "group": "men",
+      "price": "499",
+      "images": [
+        "../../../../assets/images/products/men/20_0.webp",
+        "../../../../assets/images/products/men/20_1.webp"
+      ],
+      "description": "Leather belt with a metal buckle. Width 2.9 cm.",
+      "color": "brown",
+      "tags": "men belt, belt men, belt brown, brown belt, brown belt men"
+    },
+    {
+      "id": 51,
+      "name": "Analog-Digital Black DialWatch",
+      "category": "accessories",
+      "subCategory": "watch",
+      "group": "men",
+      "price": "4999",
+      "images": [
+        "../../../../assets/images/products/men/21_0.webp",
+        "../../../../assets/images/products/men/21_1.webp"
+      ],
+      "description": "Dial color: black, case shape: round, dial glass material: acrylic",
+      "color": "black",
+      "tags": "men watch, watch men, watch black, black watch, black watch men"
+    },
+    {
+      "id": 52,
+      "name": "Printed T-shirt",
+      "category": "topwear",
+      "subCategory": "t-shirt",
+      "group": "kids",
+      "price": "499",
+      "images": [
+        "../../../../assets/images/products/kids/1_0.webp",
+        "../../../../assets/images/products/kids/1_1.webp"
+      ],
+      "description": "Straight-cut T-shirt in soft, printed cotton jersey with a ribbed trim around the neckline.",
+      "color": "white",
+      "tags": "kids tshirt, tshirt kids, tshirt white, white tshirt, white tshirt kids, kids t-shirt, t-shirt kids, t-shirt white, white t-shirt, white t-shirt kids"
+    },
+    {
+      "id": 53,
+      "name": "Oversized printed T-shirt",
+      "category": "topwear",
+      "subCategory": "t-shirt",
+      "group": "kids",
+      "price": "699",
+      "images": [
+        "../../../../assets/images/products/kids/2_0.webp",
+        "../../../../assets/images/products/kids/2_1.webp"
+      ],
+      "description": "Oversized T-shirt in soft cotton jersey with a print motif, dropped shoulders and ribbing around the neckline.",
+      "color": "orange",
+      "tags": "kids tshirt, tshirt kids, tshirt orange, orange tshirt, orange tshirt kids, kids t-shirt, t-shirt kids, t-shirt orange, orange t-shirt, orange t-shirt kids"
+    },
+    {
+      "id": 54,
+      "name": "Oversized T-shirt",
+      "category": "topwear",
+      "subCategory": "t-shirt",
+      "group": "kids",
+      "price": "599",
+      "images": [
+        "../../../../assets/images/products/kids/3_0.webp",
+        "../../../../assets/images/products/kids/3_1.webp"
+      ],
+      "description": "Straight-style T-shirt in soft cotton jersey with a print motif. Relaxed fit with dropped shoulders.",
+      "color": "yellow",
+      "tags": "kids tshirt, tshirt kids, tshirt yellow, yellow tshirt, yellow tshirt kids, kids t-shirt, t-shirt kids, t-shirt yellow, yellow t-shirt, yellow t-shirt kids"
+    },
+    {
+      "id": 55,
+      "name": "Oversized T-shirt",
+      "category": "topwear",
+      "subCategory": "t-shirt",
+      "group": "kids",
+      "price": "599",
+      "images": [
+        "../../../../assets/images/products/kids/4_0.webp",
+        "../../../../assets/images/products/kids/4_1.webp"
+      ],
+      "description": "Straight-style T-shirt in soft cotton jersey with a print motif. Relaxed fit with dropped shoulders.",
+      "color": "pink grey gray",
+      "tags": "kids tshirt, tshirt kids, tshirt pink, pink tshirt, pink tshirt kids, tshirt gray, gray tshirt, gray tshirt kids, tshirt grey, grey tshirt, grey tshirt kids kids t-shirt, t-shirt kids, t-shirt pink, pink t-shirt, pink t-shirt kids, t-shirt grey, grey t-shirt, grey t-shirt kids, t-shirt gray, gray t-shirt, gray t-shirt kids"
+    },
+    {
+      "id": 56,
+      "name": "Oversized T-shirt",
+      "category": "topwear",
+      "subCategory": "shirt",
+      "group": "kids",
+      "price": "799",
+      "images": [
+        "../../../../assets/images/products/kids/5_0.webp",
+        "../../../../assets/images/products/kids/5_1.webp"
+      ],
+      "description": "Straight-style T-shirt in soft cotton jersey with a print motif. Relaxed fit with dropped shoulders.",
+      "color": "black green",
+      "tags": "kids tshirt, tshirt kids, tshirt black, tshirt green, green tshirt, black tshirt, black tshirt kids, green tshirt kids, kids t-shirt, t-shirt kids, t-shirt black, black t-shirt, black t-shirt kids, t-shirt green, green t-shirt, green t-shirt kids"
+    },
+    {
+      "id": 57,
+      "name": "Short-sleeved cotton shirt",
+      "category": "topwear",
+      "subCategory": "shirt",
+      "group": "kids",
+      "price": "899",
+      "images": [
+        "../../../../assets/images/products/kids/6_0.webp",
+        "../../../../assets/images/products/kids/6_1.webp"
+      ],
+      "description": "Short-sleeved shirt in a cotton weave with a collar, chest pocket, buttons down the front and a rounded hem.",
+      "color": "brown",
+      "tags": "kids shirt, shirt kids, shirt brown, brown shirt, brown shirt kids"
+    },
+    {
+      "id": 58,
+      "name": "Tie-hem blouse",
+      "category": "topwear",
+      "subCategory": "shirt",
+      "group": "kids",
+      "price": "799",
+      "images": [
+        "../../../../assets/images/products/kids/7_0.webp",
+        "../../../../assets/images/products/kids/7_1.webp"
+      ],
+      "description": "Sleeveless blouse in an airy weave with a collar, buttons down the front, and chest pocket.",
+      "color": "white green",
+      "tags": "kids shirt, shirt kids, shirt white, white shirt, white shirt kids, shirt green, green shirt, green shirt kids"
+    },
+    {
+      "id": 59,
+      "name": "Patterned tie-hem shirt",
+      "category": "topwear",
+      "subCategory": "shirt",
+      "group": "kids",
+      "price": "699",
+      "images": [
+        "../../../../assets/images/products/kids/8_0.webp",
+        "../../../../assets/images/products/kids/8_1.webp"
+      ],
+      "description": "Cap-sleeved blouse in an airy viscose weave with an all-over print inspired by nature.",
+      "color": "white green",
+      "tags": "kids shirt, shirt kids, shirt white, white shirt, white shirt kids, shirt green, green shirt, green shirt kids"
+    },
+    {
+      "id": 60,
+      "name": "Super Soft Slim Fit Shorts",
+      "category": "bottomwear",
+      "subCategory": "shorts",
+      "group": "kids",
+      "price": "1199",
+      "images": [
+        "../../../../assets/images/products/kids/9_0.webp",
+        "../../../../assets/images/products/kids/9_1.webp"
+      ],
+      "description": "5-pocket, knee-length shorts in stretch, supersoft denim with an adjustable, elasticated waist, and decorative drawstring.",
+      "color": "blue",
+      "tags": "kids shorts, shorts kids, shorts blue, blue shorts, blue shorts kids"
+    },
+    {
+      "id": 61,
+      "name": "Denim shorts",
+      "category": "bottomwear",
+      "subCategory": "shorts",
+      "group": "kids",
+      "price": "1099",
+      "images": [
+        "../../../../assets/images/products/kids/10_0.webp",
+        "../../../../assets/images/products/kids/10_1.webp"
+      ],
+      "description": "Shorts in washed stretch denim with an adjustable elasticated waist (in sizes 8-12Y) and zip fly and button.",
+      "color": "black",
+      "tags": "kids shorts, shorts kids, shorts black, black shorts, black shorts kids"
+    },
+    {
+      "id": 62,
+      "name": "Wide Leg Ankle Jeans",
+      "category": "bottomwear",
+      "subCategory": "jeans",
+      "group": "kids",
+      "price": "1199",
+      "images": [
+        "../../../../assets/images/products/kids/11_0.webp",
+        "../../../../assets/images/products/kids/11_1.webp"
+      ],
+      "description": "Slim-fit, ankle-length jeans in denim made from a cotton blend.",
+      "color": "blue",
+      "tags": "kids jeans, jeans kids, jeans blue, blue jeans, blue jeans kids"
+    },
+    {
+      "id": 63,
+      "name": "Skinny Fit Jeans",
+      "category": "bottomwear",
+      "subCategory": "jeans",
+      "group": "kids",
+      "price": "1099",
+      "images": [
+        "../../../../assets/images/products/kids/12_0.webp",
+        "../../../../assets/images/products/kids/12_1.webp"
+      ],
+      "description": "Slim-fit jeans in washed stretch denim with an adjustable elasticated waist (in sizes 8-12Y), zip fly and button.",
+      "color": "black",
+      "tags": "kids jeans, jeans kids, jeans black, black jeans, black jeans kids"
+    },
+    {
+      "id": 64,
+      "name": "Printed shoes",
+      "category": "footwear",
+      "subCategory": "shoes",
+      "group": "kids",
+      "price": "1999",
+      "images": [
+        "../../../../assets/images/products/kids/13_0.webp",
+        "../../../../assets/images/products/kids/13_1.webp"
+      ],
+      "description": "Lacing at the front, a grosgrain loop at the back, a print motif and reflective details. Height of soles 2 cm.",
+      "color": "white black",
+      "tags": "kids shoes, shoes kids, shoes white, white shoes, white shoes kids, shoes black, black shoes, black shoes kids"
+    },
+    {
+      "id": 65,
+      "name": "Mesh shoes",
+      "category": "footwear",
+      "subCategory": "shoes",
+      "group": "kids",
+      "price": "1799",
+      "images": [
+        "../../../../assets/images/products/kids/14_0.webp",
+        "../../../../assets/images/products/kids/14_1.webp"
+      ],
+      "description": "Lightly padded edge and tongue, lacing at the front and a loop at the back. Height of soles 1.5 cm.",
+      "color": "pink",
+      "tags": "kids shoes, shoes kids, shoes pink, pink shoes, pink shoes kids"
+    },
+    {
+      "id": 66,
+      "name": "Printed pool flip flops",
+      "category": "footwear",
+      "subCategory": "flip-flops",
+      "group": "kids",
+      "price": "999",
+      "images": [
+        "../../../../assets/images/products/kids/15_0.webp",
+        "../../../../assets/images/products/kids/15_1.webp"
+      ],
+      "description": "Padded foot strap with a print motif, moulded insoles and fluted soles.",
+      "color": "black",
+      "tags": "kids flipflop, kids flip flop, flipflop kids, flip flop kids, flipflop black, flip flop black, black flipflop, black flip flop, black fliflop kids, black flip flop kids"
+    },
+    {
+      "id": 67,
+      "name": "Printed pool flip flops",
+      "category": "footwear",
+      "subCategory": "flip-flops",
+      "group": "kids",
+      "price": "999",
+      "images": [
+        "../../../../assets/images/products/kids/16_0.webp",
+        "../../../../assets/images/products/kids/16_1.webp"
+      ],
+      "description": "Padded foot strap with a print motif, moulded insoles and fluted soles.",
+      "color": "green black",
+      "tags": "kids flipflop, kids flip flop, flipflop kids, flip flop kids, flipflop black, flip flop black, black flipflop, black flip flop, black fliflop kids, black flip flop kids, flipflop green, flip flop green, green flipflop, green flip flop, green fliflop kids, green flip flop kids"
+    },
+    {
+      "id": 68,
+      "name": "Braided belt",
+      "category": "accessories",
+      "subCategory": "belt",
+      "group": "kids",
+      "price": "599",
+      "images": [
+        "../../../../assets/images/products/kids/17_0.webp",
+        "../../../../assets/images/products/kids/17_1.webp"
+      ],
+      "description": "Braided belt with a metal buckle and imitation leather ends.",
+      "color": "blue",
+      "tags": "kids belt, belt kids, belt blue, blue belt, blue belt kids"
+    },
+    {
+      "id": 69,
+      "name": "Braided belt",
+      "category": "accessories",
+      "subCategory": "belt",
+      "group": "kids",
+      "price": "699",
+      "images": [
+        "../../../../assets/images/products/kids/18_0.webp",
+        "../../../../assets/images/products/kids/18_1.webp"
+      ],
+      "description": "Belt in regenerated leather with a metal buckle. Width approx. 3 cm.",
+      "color": "brown",
+      "tags": "kids belt, belt kids, belt brown, brown belt, brown belt kids"
+    },
+    {
+      "id": 70,
+      "name": "Analog watch",
+      "category": "accessories",
+      "subCategory": "watch",
+      "group": "kids",
+      "price": "699",
+      "images": [
+        "../../../../assets/images/products/kids/19_0.webp",
+        "../../../../assets/images/products/kids/19_1.webp"
+      ],
+      "description": "Add a unique touch of individuality to your style statement by pairing this watch with any outfit of your choice",
+      "color": "black",
+      "tags": "kids watch, watch kids, watch black, black watch, black watch kids"
+    },
+    {
+      "id": 71,
+      "name": "Analog Pink Dial Watch",
+      "category": "accessories",
+      "subCategory": "watch",
+      "group": "kids",
+      "price": "499",
+      "images": [
+        "../../../../assets/images/products/kids/20_0.webp",
+        "../../../../assets/images/products/kids/20_1.webp"
+      ],
+      "description": "Dial Color: Pink, Case Shape: Round, Band Color: Pink, Band Material: Plastic",
+      "color": "pink",
+      "tags": "kids watch, watch kids, watch pink, pink watch, pink watch kids"
+    }
+  ]
+}

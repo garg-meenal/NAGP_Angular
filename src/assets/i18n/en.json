@@ -1,0 +1,122 @@
+{
+    "HOME":{
+        "categories":"POPULAR CATEGORIES"
+    },
+    "CATEGORY":{
+        "men":"MEN CATEGORIES",
+        "women":"WOMEN CATEGORIES",
+        "kids":"KIDS CATEGORIES"
+    },
+    "LOGIN":{
+        "user_id": "USER ID",
+        "password": "Password",
+        "email":"E-mail",
+        "login": "Login",
+        "error_msg": "Incorrect username or password",
+        "user_not_exist": "User doesn’t exists.",
+        "not_a_member":"Not a member?",
+        "email_required":"Email address is required",
+        "email_invalid":"Email address is invalid",
+        "password_required":"Password is required",
+        "password_incorrect":"Incorrect password"
+    },
+    "SIGNUP":{
+        "signup":"Sign Up",
+        "already_a_member":"Already a member?",
+        "by_clicking":"By clicking",
+        "you_agree":"you agree to our",
+        "terms":"terms of service",
+        "name_required":"Full name is required.",
+        "name_invalid":"Please provide valid name.",
+        "phone_required":"Phone Number is required.",
+        "phone_invalid":"Please provide valid 10-digit phone number.",
+        "language_required":"Please select the language.",
+        "email_exist":"Email Id already exists.",
+        "full_name":"Full Name",
+        "email":"Email",
+        "phone":"Phone number",
+        "select_language":"Select Language"
+    },
+    "CONTACT":{
+        "heading":"WE’D LOVE TO HEAR FROM YOU",
+        "email_us":"Email Us",
+        "email_text":"You can email us your queries at meenal@gmail.com.",
+        "call_us":"Call Us",
+        "phone":"123-456-7890"
+    },
+    "CART":{
+        "heading":"SHOPPING CART",
+        "empty_cart":"Your Cart is Empty!",
+        "start_shopping":"Start shopping",
+        "size":"Size",
+        "quantity":"Quantity",
+        "total":"Total",
+        "total_amount":"Total Amount",
+        "checkout":"Proceed To Checkout"
+    },
+    "CHECKOUT":{
+        "heading":"CHECKING OUT",
+        "billing_info":"BILLING INFORMATION",
+        "shipping_info":"SHIPPING INFORMATION",
+        "order_info":"ORDER INFORMATION",
+        "name":"Name",
+        "email":"Email",
+        "select_address":"Select Address",
+        "add_address":"Add New Address",
+        "address":"Address(House no., street, area)",
+        "pincode":"Pincode",
+        "address_required":"Address is required.",
+        "pincode_required":"Pincode is required.",
+        "pincode_invalid":"Please provide valid pincode.",
+        "city":"City",
+        "city_required":"City is required.",
+        "city_invalid":"Please provide valid city name.",
+        "select_state":"Select State",
+        "state_required":"State is required.",
+        "phone":"Phone number",
+        "qty":"Qty.",
+        "amount":"Amount",
+        "place_order":"Place Order",
+        "close":"Close",
+        "add":"Add"
+    },
+    "ORDER":{
+        "heading":"Thank you for shopping with us.",
+        "order_text":"You can see your order details under profile --> order.",
+        "home":"Go to home page"
+    },
+    "SHARED":
+        {
+            "group_men":"Men",
+            "group_women":"Women",
+            "group_kids":"Kids",
+            "contact_us":"Contact Us",
+            "HEADER":{
+                "login":"LOGIN",
+                "signup":"SIGNUP",
+                "profile":"PROFILE",
+                "hello":"Hello",
+                "view_all":"View All",
+                "search":"Search products"
+            },
+            "FOOTER":{
+                "newletter_signup":"Sign up for our newsletter",
+                "email":"Email address",
+                "subscribe":"Subscribe",
+                "shop":"SHOP",
+                "links":"USEFUL LINKS",
+                "terms_of_use":"Terms Of Use",
+                "privacy_policy":"Privacy Policy",
+                "help":"HELP",
+                "shipping_policy":"Shipping Policy",
+                "cancellation_policy":"Cancellation Policy",
+                "return_policy":"Return Policy",
+                "copyright": "© 2021 Copyright: meenalgarg.com"
+            },
+            "PRODUCT":{
+                "select_size":"Select Size",
+                "select_quantity":"Select Quantity",
+                "add_to_cart":"Add To Cart"
+            }
+    }
+}

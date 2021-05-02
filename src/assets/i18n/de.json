@@ -1,0 +1,122 @@
+{
+    "HOME":{
+        "categories":"KATEGORIEN ZUM EINKAUFEN"
+    },
+    "CATEGORY":{
+        "men":"MÄNNER KATEGORIEN",
+        "women":"FRAUEN KATEGORIEN",
+        "kids":"KINDER KATEGORIEN"
+    },
+    "LOGIN":{
+        "user_id": "BENUTZER NR.",
+        "password": "Passwort",
+        "email":"E-mail",
+        "login": "Anmelden",
+        "error_msg": "Upps, inkorrekter Benutzername oder inkorrektes Passwort",
+        "user_not_exist": "Benutzer existiert nicht.",
+        "not_a_member":"Kein Mitglied?",
+        "email_required":"E-Mail adresse wird benötigt",
+        "email_invalid":"E-mail Adresse ist nicht korrekt",
+        "password_required":"Passwort wird benötigt",
+        "password_incorrect":"Falsches Passwort"
+    },
+    "SIGNUP":{
+        "signup":"ANMELDEN",
+        "already_a_member":"Already a Mitglied?",
+        "by_clicking":"Beim Klicken",
+        "you_agree":"Sie stimmen unseren zu",
+        "terms":"Nutzungsbedingungen",
+        "name_required":"Der vollständige Name ist erforderlich.",
+        "name_invalid":"Bitte geben Sie einen gültigen Namen an.",
+        "phone_required":"Telefonnummer ist erforderlich.",
+        "phone_invalid":"Bitte geben Sie eine gültige 10-stellige Telefonnummer an.",
+        "language_required":"Bitte wählen Sie die Sprache.",
+        "email_exist":"E-Mail-ID existiert bereits.",
+        "full_name":"Vollständiger Name",
+        "email":"Email",
+        "phone":"Telefonnummer",
+        "select_language":"Sprache auswählen"
+    },
+    "CONTACT":{
+        "heading":"Wir würden gerne von Ihnen hören",
+        "email_us":"Schreiben Sie uns eine E-Mail",
+        "email_text":"Sie können uns Ihre Fragen per E-Mail an meenal@gmail.com senden",
+        "call_us":"Rufen Sie uns an",
+        "phone":"123-456-7890"
+    },
+    "CART":{
+        "heading":"EINKAUFSWAGEN",
+        "empty_cart":"Ihr Warenkorb ist leer!",
+        "start_shopping":"Beginn mit dem Einkauf",
+        "size":"Größe",
+        "quantity":"Menge",
+        "total":"Gesamt",
+        "total_amount":"Gesamtmenge",
+        "checkout":"Zur Kasse"
+    },
+    "CHECKOUT":{
+        "heading":"Auschecken",
+        "billing_info":"ABRECHNUNGSDATEN",
+        "shipping_info":"VERSANDINFORMATIONEN",
+        "order_info":"BESTELLINFORMATIONEN",
+        "name":"Name",
+        "email":"Email",
+        "select_address":"Wählen Sie Adresse",
+        "add_address":"Neue Adresse hinzufügen",
+        "address":"Adresse (Hausnummer, Straße, Gebiet)",
+        "pincode":"Geheimzahl",
+        "address_required":"Adresse ist erforderlich.",
+        "pincode_required":"Pincode ist erforderlich.",
+        "pincode_invalid":"Bitte geben Sie einen gültigen PIN-Code an.",
+        "city":"Stadt",
+        "city_required":"Stadt ist erforderlich.",
+        "city_invalid":"Bitte geben Sie einen gültigen Städtenamen an.",
+        "select_state":"Staat wählen",
+        "state_required":"Staat ist erforderlich.",
+        "phone":"Telefonnummer",
+        "qty":"Qty.",
+        "amount":"Menge",
+        "place_order":"Bestellung aufgeben",
+        "close":"Schließen",
+        "add":"Hinzufügen"
+    },
+    "ORDER":{
+        "heading":"Danke für ihren Einkauf.",
+        "order_text":"Sie können Ihre Bestelldaten unter Profil -> Bestellung sehen.",
+        "home":"Zur Homepage gehen"
+    },
+    "SHARED":
+        {
+            "group_men":"MÄNNER",
+            "group_women":"FRAUEN",
+            "group_kids":"KINDER",
+            "contact_us":"Kontaktiere uns",
+            "HEADER":{
+                "login":"ANMELDUNG",
+                "signup":"ANMELDEN",
+                "profile":"PROFIL",
+                "hello":"Hallo",
+                "view_all":"Alle ansehen",
+                "search":"Produktsuche"
+            },
+            "FOOTER":{
+                "newletter_signup":"Melden Sie sich für unseren Newsletter an",
+                "email":"E-Mail-Addresse",
+                "subscribe":"Abonnieren",
+                "shop":"GESCHÄFT",
+                "links":"NÜTZLICHE LINKS",
+                "terms_of_use":"Nutzungsbedingungen",
+                "privacy_policy":"Datenschutz-Bestimmungen",
+                "help":"HILFE",
+                "shipping_policy":"Versandbedingungen",
+                "cancellation_policy":"Stornierungsbedingungen",
+                "return_policy":"Rücknahmegarantie",
+                "copyright": "© 2021 Urheberrechte meenalgarg.com"
+            },
+            "PRODUCT":{
+                "select_size":"Wähle die Größe aus",
+                "select_quantity":"Wählen Sie die Menge",
+                "add_to_cart":"In den Warenkorb legen"
+            }
+    }
+}

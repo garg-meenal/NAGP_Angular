@@ -1,0 +1,100 @@
+<div class="footer-container">
+<footer class="bg-dark text-center text-white">
+    <div class="container p-4">
+      <section class="mb-4">
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-facebook-f"></i
+        ></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-twitter"></i
+        ></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-google"></i
+        ></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fa fa-instagram"></i
+        ></a>
+      </section>
+      <section>
+        <form>
+          <div class="row d-flex justify-content-center">
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>{{'SHARED.FOOTER.newletter_signup' | translate}}</strong>
+              </p>
+            </div>
+            <div class="col-md-5 col-12">
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="newLetterForm" class="form-control" />
+                <label class="form-label" for="newLetterForm">{{'SHARED.FOOTER.email' | translate}}</label>
+              </div>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-outline-light mb-4">
+                {{'SHARED.FOOTER.subscribe' | translate}}
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+      <section>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">{{'SHARED.FOOTER.shop' | translate}}</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a [routerLink]="['/shop', 'men']" class="text-white">{{'SHARED.group_men' | translate}}</a>
+              </li>
+              <li>
+                <a [routerLink]="['/shop', 'women']" class="text-white">{{'SHARED.group_women' | translate}}</a>
+              </li>
+              <li>
+                <a [routerLink]="['/shop', 'kids']" class="text-white">{{'SHARED.group_kids' | translate}}</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">{{'SHARED.FOOTER.links' | translate}}</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a routerLink="/contact" class="text-white">{{'SHARED.contact_us' | translate}}</a>
+              </li>
+              <li>
+                <a routerLink="#" class="text-white">{{'SHARED.FOOTER.terms_of_use' | translate}}</a>
+              </li>
+              <li>
+                <a routerLink="#" class="text-white">{{'SHARED.FOOTER.privacy_policy' | translate}}</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">{{'SHARED.FOOTER.help' | translate}}</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a routerLink="#" class="text-white">{{'SHARED.FOOTER.shipping_policy' | translate}}</a>
+              </li>
+              <li>
+                <a routerLink="#" class="text-white">{{'SHARED.FOOTER.cancellation_policy' | translate}}</a>
+              </li>
+              <li>
+                <a routerLink="#" class="text-white">{{'SHARED.FOOTER.return_policy' | translate}}</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      {{'SHARED.FOOTER.copyright' | translate}}
+    </div>
+  </footer>
+</div>

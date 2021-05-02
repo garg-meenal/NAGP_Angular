@@ -1,0 +1,80 @@
+<div class=top-container>
+    <div class="container row">
+        <div class="col-lg-6"></div>
+        <div class="col-lg-6 text-center text-lg-right">
+            <ul class="menu list-inline">
+                <li *ngIf= "isUserLoggedIn == 'no'" class="list-inline-item">
+                  <a routerLink="/login">{{'SHARED.HEADER.login' | translate}}</a>
+                </li>
+                <li *ngIf= "isUserLoggedIn == 'no'" class="list-inline-item">
+                  <a routerLink="/signup">{{'SHARED.HEADER.signup' | translate}}</a>
+                </li>
+                <li *ngIf= "isUserLoggedIn == 'yes'" class="list-inline-item">
+                  <a routerLink="/profile">{{'SHARED.HEADER.hello' | translate}} {{firstName}}</a>
+                </li>
+                <li class="list-inline-item">
+                  <a routerLink="/contact">{{'SHARED.contact_us' | translate}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="header-container">
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <a class="navbar-brand" routerLink="/">
+          Online Shopping
+          </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse row" id="myNav">
+           <div class="mx-auto">
+             <div class="col-lg-6" (mouseover)="loadCategories()">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown" *ngFor="let group of groups">
+                  <a class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false" 
+                  (click)="getProducts(group)" style="cursor: pointer;" role="button">{{group | uppercase}}</a>
+                  <ul class="dropdown-menu">
+                    <div class="row">
+                      <div class="col-lg-6 mx-auto" *ngFor="let category of categories">
+                        <li><a class="dropdown-item" (click)="getProducts(group,category.name)" role="button"><strong>{{category.name | uppercase}}</strong></a>
+                          <ul>
+                            <li><a class="dropdown-item" role="button" (click)="getProducts(group,category.name)">{{'SHARED.HEADER.view_all' | translate}}</a></li>
+                            <li *ngFor="let subCat of category.subcategories">
+                              <a class="dropdown-item" role="button" (click)="getProducts(group,category.name,subCat)">{{subCat | titlecase}}</a></li>
+                          </ul>
+                        </li>
+                      </div>
+                    </div>
+                  </ul>
+                </li>
+              </ul>
+             </div>
+           </div>
+           <div class="col-lg-1"></div>
+           <div class="col-lg-4 text-lg-right">
+            <form class="navbar-search pl-0 ml-auto">
+              <input class="form-control  border-0 z-depth-0 pl-5" type="text" [(ngModel)]="searchText" name="search"
+                  placeholder="{{'SHARED.HEADER.search' | translate}}" aria-label="Search" (keyup.enter)="search()" style="background-color: #ebe4ed;">
+            <!-- <div class="input-group mb-0">
+              <div class="input-group-prepend">
+                <a (click)="search()" class="input-icon d-flex align-items-center" type="button"><i
+                    class="fa fa-search mx-3" style="color: slategrey;"></i></a>
+                <input class="form-control  border-0 z-depth-0 pl-5" type="text" [(ngModel)]="searchText" name="search"
+                  placeholder="{{'SHARED.HEADER.search' | translate}}" aria-label="Search" (keyup.enter)="search()" style="background-color: #ebe4ed;">
+              </div>
+            </div> -->
+          </form></div>
+          
+          <div class="col-lg-1 text-lg-left">
+            <a class="shoppingCart" type="button" routerLink="/cart">
+              <i class="fa fa-shopping-cart fa-lg"></i>
+              <span class="cart-count pl-1" *ngIf="cartCount>0">({{cartCount}})</span>
+            </a>  
+          </div>
+         </div>
+       </nav>
+</div>
+<div class="container-fluid">
+  <router-outlet></router-outlet>
+</div>
