@@ -23,6 +23,11 @@ import { CartComponent } from './cart/cart/cart.component';
 import { CheckoutComponent } from './checkout/checkout/checkout.component';
 import { OrderConfirmComponent } from './order/order-confirm/order-confirm.component';
 import { Ng2SearchPipeModule} from 'ng2-search-filter';
+import { TermsComponent } from './terms/terms/terms.component';
+import { PrivacyComponent } from './privacy/privacy/privacy.component';
+import { ShippingComponent } from './shipping/shipping/shipping.component';
+import { ReturnComponent } from './return/return/return.component';
+import { CancellationComponent } from './cancellation/cancellation/cancellation.component';
 
 export function HttpLoaderFactory( httpClient: HttpClient): TranslateHttpLoader{
   return new TranslateHttpLoader(httpClient);
@@ -40,7 +45,12 @@ export function HttpLoaderFactory( httpClient: HttpClient): TranslateHttpLoader{
     SignupComponent,
     ProfileComponent,
     CheckoutComponent,
-    OrderConfirmComponent
+    OrderConfirmComponent,
+    TermsComponent,
+    PrivacyComponent,
+    ShippingComponent,
+    ReturnComponent,
+    CancellationComponent
   ],
   imports: [
     BrowserModule,

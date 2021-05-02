@@ -85,6 +85,63 @@
         "order_text":"You can see your order details under profile --> order.",
         "home":"Go to home page"
     },
+    "TERMS":{
+        "heading":"Terms of Use",
+        "terms":"These terms and conditions ('Agreement') set forth the general terms and conditions of your use of the infallible-blackwell-c2f60a.netlify.app website ('Website' or 'Service') and any of its related products and services (collectively, 'Services'). This Agreement is legally binding between you ('User', 'you' or 'your') and this Website operator ('Operator', 'we', 'us' or 'our'). By accessing and using the Website and Services, you acknowledge that you have read, understood, and agree to be bound by the terms of this Agreement.",
+        "accounts_heading":"Accounts and membership",
+        "accounts_text":"If you create an account on the Website, you are responsible for maintaining the security of your account and you are fully responsible for all activities that occur under the account and any other actions taken in connection with it. We may, but have no obligation to, monitor and review new accounts before you may sign in and start using the Services.",
+        "links_heading":"Links to other resources",
+        "links_text":"Although the Website and Services may link to other resources (such as websites, mobile applications, etc.), we are not, directly or indirectly, implying any approval, association, sponsorship, endorsement, or affiliation with any linked resource, unless specifically stated herein.",
+        "prohibited_heading":"Prohibited uses",
+        "prohibited_text":"In addition to other terms as set forth in the Agreement, you are prohibited from using the Website and Services or Content: (a) for any unlawful purpose; (b) to solicit others to perform or participate in any unlawful acts; (c) to violate any international, federal, provincial or state regulations, rules, laws, or local ordinances; (d) to infringe upon or violate our intellectual property rights or the intellectual property rights of others."
+    },
+    "PRIVACY":{
+        "heading":"Privacy Policy",
+        "privacy":"This privacy policy ('Policy') describes how the personally identifiable information ('Personal Information') you may provide on the infallible-blackwell-c2f60a.netlify.app website ('Website' or 'Service') and any of its related products and services (collectively, 'Services') is collected, protected and used. It also describes the choices available to you regarding our use of your Personal Information and how you can access and update this information. This Policy is a legally binding agreement between you ('User', 'you' or 'your') and this Website operator ('Operator', 'we', 'us' or 'our').",
+        "info_heading":"Automatic collection of information",
+        "info_text":"Our top priority is customer data security and, as such, we exercise the no logs policy. We may process only minimal user data, only as much as it is absolutely necessary to maintain the Website and Services. Information collected automatically is used only to identify potential cases of abuse and establish statistical information regarding the usage and traffic of the Website and Services.",
+        "personal_heading":"Collection of personal information",
+        "personal_text":"You can access and use the Website and Services without telling us who you are or revealing any information by which someone could identify you as a specific, identifiable individual. If, however, you wish to use some of the features on the Website, you may be asked to provide certain Personal Information (for example, your name and e-mail address).",
+        "manage_heading":"Managing information",
+        "manage_text":"You are able to delete certain Personal Information we have about you. The Personal Information you can delete may change as the Website and Services change. When you delete Personal Information, however, we may maintain a copy of the unrevised Personal Information in our records for the duration necessary to comply with our obligations to our affiliates and partners.",
+        "accept_heading":"Acceptance of this policy",
+        "accept_text":"You acknowledge that you have read this Policy and agree to all its terms and conditions. By accessing and using the Website and Services you agree to be bound by this Policy. If you do not agree to abide by the terms of this Policy, you are not authorized to access or use the Website and Services."
+    },
+    "SHIPPING":{
+        "heading":"Shipping Policy",
+        "shipping":"Shop ('we' and 'us') is the operator of (https://infallible-blackwell-c2f60a.netlify.app/shop) ('Website'). By placing an order through this Website you will be agreeing to the terms below. These are provided to ensure both parties are aware of and agree upon this arrangement to mutually protect and set expectations on our service.",
+        "general_heading":"General",
+        "general_text":"Subject to stock availability. We try to maintain accurate stock counts on our website but from time-to-time there may be a stock discrepancy and we will not be able to fulfill all your items at time of purchase.",
+        "cost_heading":"Shipping Costs",
+        "cost_text":"Shipping costs are calculated during checkout based on weight, dimensions and destination of the items in the order. Payment for shipping will be collected with the purchase. This price will be the final price for shipping cost to the customer.",
+        "delivery_heading":"Delivery Terms",
+        "delivery_text":"In general, domestic shipments are in transit for 1 - 10 days. Orders are usually dispatched within 2 business days of payment of order. Our warehouse operates on Monday - Friday during standard business hours, except on national holidays at which time the warehouse will be closed. In these instances, we take steps to ensure shipment delays will be kept to a minimum."
+    },
+    "RETURN":{
+        "heading":"Return Policy",
+        "thank":"Thank you for shopping at shop.",
+        "return":"If, for any reason, You are not completely satisfied with a purchase We invite You to review our policy on refunds and returns. The following terms are applicable for any products that You purchased with Us:",
+        "return_heading":"Conditions for Returns",
+        "return_text_0":"In order for the Goods to be eligible for a return, please make sure that:",
+        "return_text_1":"The Goods were purchased in the last 14 days",
+        "return_text_2":"The Goods are in the original packaging",
+        "return_text_3":"The following Goods cannot be returned:",
+        "return_text_4":"The supply of Goods made to Your specifications or clearly personalized.",
+        "return_text_5":"The supply of Goods which according to their nature are not suitable to be returned, deteriorate rapidly or where the date of expiry is over.",
+        "return_text_6":"The supply of Goods which are not suitable for return due to health protection or hygiene reasons and were unsealed after delivery.",
+        "return_text_7":"The supply of Goods which are, after delivery, according to their nature, inseparably mixed with other items."     
+    },
+    "CANCEL":{
+        "heading":"Cancellation Policy",
+        "thank":"Thank you for shopping at shop.",
+        "cancel":"If, for any reason, You are not completely satisfied with a purchase We invite You to review our policy on cancellation. The following terms are applicable for any products that You purchased with Us:",
+        "cancel_heading":"Your Order Cancellation Rights",
+        "cancel_text_0":"You are entitled to cancel Your Order within 14 days without giving any reason for doing so.",
+        "cancel_text_1":"The deadline for cancelling an Order is 14 days from the date on which You received the Goods or on which a third party you have appointed, who is not the carrier, takes possession of the product delivered.",
+        "cancel_text_2":"In order to exercise Your right of cancellation, You must inform Us of your decision by means of a clear statement. You can inform us of your decision by:",
+        "cancel_text_3":"By visiting contact page on our website",
+        "cancel_text_4":"We will reimburse You no later than 14 days from the day on which We receive the returned Goods. We will use the same means of payment as You used for the Order, and You will not incur any fees for such reimbursement."
+    },
     "SHARED":
         {
             "group_men":"Men",
@@ -97,7 +154,8 @@
                 "profile":"PROFILE",
                 "hello":"Hello",
                 "view_all":"View All",
-                "search":"Search products"
+                "search":"Search products",
+                "logout":"Logout"
             },
             "FOOTER":{
                 "newletter_signup":"Sign up for our newsletter",

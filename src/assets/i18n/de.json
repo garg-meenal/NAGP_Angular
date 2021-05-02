@@ -85,6 +85,63 @@
         "order_text":"Sie können Ihre Bestelldaten unter Profil -> Bestellung sehen.",
         "home":"Zur Homepage gehen"
     },
+    "TERMS":{
+        "heading":"Nutzungsbedingungen",
+        "terms":"Diese Allgemeinen Geschäftsbedingungen ('Vereinbarung') enthalten die allgemeinen Geschäftsbedingungen für Ihre Nutzung der Website 'infallible-blackwell-c2f60a.netlify.app' ('Website' oder 'Service') und aller zugehörigen Produkte und Services (zusammen) , 'Dienstleistungen'). Diese Vereinbarung ist rechtsverbindlich zwischen Ihnen ('Benutzer', 'Sie' oder 'Ihr') und diesem Website-Betreiber ('Betreiber', 'wir', 'uns' oder 'unser'). Durch den Zugriff auf und die Nutzung der Website und der Dienste bestätigen Sie, dass Sie die Bestimmungen dieser Vereinbarung gelesen und verstanden haben und damit einverstanden sind.",
+        "accounts_heading":"Konten und Mitgliedschaft",
+        "accounts_text":"Wenn Sie ein Konto auf der Website erstellen, sind Sie für die Aufrechterhaltung der Sicherheit Ihres Kontos verantwortlich und Sie sind voll verantwortlich für alle Aktivitäten, die unter dem Konto stattfinden, und alle anderen im Zusammenhang damit ergriffenen Maßnahmen. Wir sind möglicherweise, aber nicht verpflichtet, neue Konten zu überwachen und zu überprüfen, bevor Sie sich anmelden und die Dienste nutzen können.",
+        "links_heading":"Links zu anderen Ressourcen",
+        "links_text":"Obwohl die Website und die Dienste möglicherweise mit anderen Ressourcen (wie Websites, mobilen Anwendungen usw.) verknüpft sind, implizieren wir weder direkt noch indirekt eine Genehmigung, Vereinigung, Sponsoring, Billigung oder Zugehörigkeit zu einer verknüpften Ressource, sofern nicht ausdrücklich anders angegeben hierin.",
+        "prohibited_heading":"Verbotene Verwendungen",
+        "prohibited_text":"Zusätzlich zu anderen in der Vereinbarung festgelegten Bedingungen ist es Ihnen untersagt, die Website und die Dienste oder Inhalte zu verwenden: (a) für einen rechtswidrigen Zweck; (b) andere zu bitten, rechtswidrige Handlungen durchzuführen oder daran teilzunehmen; (c) gegen internationale, föderale, provinzielle oder staatliche Vorschriften, Regeln, Gesetze oder lokale Verordnungen zu verstoßen; (d) unsere Rechte an geistigem Eigentum oder die Rechte an geistigem Eigentum anderer zu verletzen oder zu verletzen."
+    },
+    "PRIVACY":{
+        "heading":"Datenschutz-Bestimmungen",
+        "privacy":"Diese Datenschutzrichtlinie ('Richtlinie') beschreibt, wie die personenbezogenen Daten ('personenbezogene Daten'), die Sie auf der Website 'unfehlbar-blackwell-c2f60a.netlify.app' ('Website' oder 'Service') und einem der zugehörigen Produkte angeben können und Dienste (zusammen 'Dienste') werden gesammelt, geschützt und verwendet. Außerdem werden die Auswahlmöglichkeiten beschrieben, die Ihnen hinsichtlich unserer Verwendung Ihrer persönlichen Daten zur Verfügung stehen, und wie Sie auf diese Informationen zugreifen und sie aktualisieren können. Diese Richtlinie ist eine rechtsverbindliche Vereinbarung zwischen Ihnen ('Benutzer', 'Sie' oder 'Ihr') und diesem Website-Betreiber ('Betreiber', 'wir', 'uns' oder 'unser').",
+        "info_heading":"Automatische Erfassung von Informationen",
+        "info_text":"Unsere oberste Priorität ist die Datensicherheit unserer Kunden. Daher wenden wir die Richtlinie 'Keine Protokolle' an. Wir dürfen nur minimale Benutzerdaten verarbeiten, nur so viel, wie für die Pflege der Website und der Dienste unbedingt erforderlich ist. Automatisch gesammelte Informationen werden nur verwendet, um potenzielle Missbrauchsfälle zu identifizieren und statistische Informationen über die Nutzung und den Verkehr der Website und der Dienste zu erstellen.",
+        "personal_heading":"Sammlung persönlicher Informationen",
+        "personal_text":"Sie können auf die Website und die Dienste zugreifen und diese nutzen, ohne uns mitzuteilen, wer Sie sind, oder Informationen preiszugeben, anhand derer jemand Sie als eine bestimmte, identifizierbare Person identifizieren könnte. Wenn Sie jedoch einige der Funktionen auf der Website nutzen möchten, werden Sie möglicherweise aufgefordert, bestimmte persönliche Informationen anzugeben (z. B. Ihren Namen und Ihre E-Mail-Adresse).",
+        "manage_heading":"Informationen verwalten",
+        "manage_text":"Sie können bestimmte persönliche Informationen löschen, die wir über Sie haben. Die persönlichen Informationen, die Sie löschen können, können sich ändern, wenn sich die Website und die Dienste ändern. Wenn Sie jedoch personenbezogene Daten löschen, können wir eine Kopie der nicht überarbeiteten personenbezogenen Daten in unseren Aufzeichnungen für die Dauer aufbewahren, die erforderlich ist, um unseren Verpflichtungen gegenüber unseren verbundenen Unternehmen und Partnern nachzukommen.",
+        "accept_heading":"Akzeptanz dieser Richtlinie",
+        "accept_text":"Sie bestätigen, dass Sie diese Richtlinie gelesen haben und allen Bedingungen zustimmen. Durch den Zugriff auf und die Nutzung der Website und der Dienste erklären Sie sich mit dieser Richtlinie einverstanden. Wenn Sie den Bedingungen dieser Richtlinie nicht zustimmen, sind Sie nicht berechtigt, auf die Website und die Dienste zuzugreifen oder diese zu nutzen."
+    },
+    "SHIPPING":{
+        "heading":"Versandbedingungen",
+        "shipping":"Shop ('wir' und 'uns') ist der Betreiber von (https://infallible-blackwell-c2f60a.netlify.app/shop) ('Website'). Wenn Sie über diese Website eine Bestellung aufgeben, stimmen Sie den nachstehenden Bedingungen zu. Diese werden bereitgestellt, um sicherzustellen, dass beide Parteien diese Vereinbarung kennen und vereinbaren, um sich gegenseitig zu schützen und Erwartungen an unseren Service zu setzen.",
+        "general_heading":"Allgemeines",
+        "general_text":"Vorbehaltlich der Verfügbarkeit des Lagers. Wir bemühen uns, auf unserer Website genaue Bestandszahlen zu gewährleisten. Von Zeit zu Zeit kann es jedoch zu Bestandsdiskrepanzen kommen, und wir können zum Zeitpunkt des Kaufs nicht alle Ihre Artikel erfüllen.",
+        "cost_heading":"Versandkosten",
+        "cost_text":"Die Versandkosten werden während der Kaufabwicklung basierend auf Gewicht, Abmessungen und Bestimmungsort der Artikel in der Bestellung berechnet. Die Zahlung für den Versand wird mit dem Kauf eingezogen. Dieser Preis ist der Endpreis für die Versandkosten an den Kunden.",
+        "delivery_heading":"Lieferbedingungen",
+        "delivery_text":"Inlandslieferungen sind in der Regel 1 - 10 Tage unterwegs. Bestellungen werden in der Regel innerhalb von 2 Werktagen nach Zahlungseingang versandt. Unser Lager ist montags bis freitags während der normalen Geschäftszeiten geöffnet, außer an nationalen Feiertagen, an denen das Lager geschlossen ist. In diesen Fällen ergreifen wir Maßnahmen, um sicherzustellen, dass Versandverzögerungen auf ein Minimum beschränkt werden."
+    },
+    "RETURN":{
+        "heading":"Rücknahmegarantie",
+        "thank":"Vielen Dank für den Einkauf im Shop.",
+        "return":"Wenn Sie aus irgendeinem Grund mit einem Kauf nicht vollständig zufrieden sind, laden wir Sie ein, unsere Richtlinien zu Rückerstattungen und Rückgaben zu überprüfen. Die folgenden Bedingungen gelten für alle Produkte, die Sie bei uns gekauft haben:",
+        "return_heading":"Rückgabebedingungen",
+        "return_text_0":"Damit die Waren für eine Rücksendung in Frage kommen, stellen Sie bitte Folgendes sicher:",
+        "return_text_1":"Die Waren wurden in den letzten 14 Tagen gekauft",
+        "return_text_2":"Die Ware befindet sich in der Originalverpackung",
+        "return_text_3":"Folgende Waren können nicht zurückgesandt werden:",
+        "return_text_4":"Die Lieferung von Waren erfolgt nach Ihren Vorgaben oder ist eindeutig personalisiert.",
+        "return_text_5":"Die Lieferung von Waren, die ihrer Natur nach nicht zur Rückgabe geeignet sind, verschlechtert sich rasch oder wenn das Verfallsdatum abgelaufen ist.",
+        "return_text_6":"Die Lieferung von Waren, die aus gesundheitlichen oder hygienischen Gründen nicht zur Rücksendung geeignet sind und nach der Lieferung entsiegelt wurden.",
+        "return_text_7":"Die Lieferung von Waren, die nach der Lieferung ihrer Natur nach untrennbar mit anderen Gegenständen vermischt sind."     
+    },
+    "CANCEL":{
+        "heading":"Stornierungsbedingungen",
+        "thank":"Vielen Dank für den Einkauf im Shop.",
+        "cancel":"Wenn Sie aus irgendeinem Grund mit einem Kauf nicht vollständig zufrieden sind, laden wir Sie ein, unsere Stornierungsbedingungen zu überprüfen. Die folgenden Bedingungen gelten für alle Produkte, die Sie bei uns gekauft haben:",
+        "cancel_heading":"Ihre Stornierungsrechte für Bestellungen",
+        "cancel_text_0":"Sie sind berechtigt, Ihre Bestellung innerhalb von 14 Tagen ohne Angabe von Gründen zu stornieren.",
+        "cancel_text_1":"Die Frist für die Stornierung einer Bestellung beträgt 14 Tage ab dem Datum, an dem Sie die Waren erhalten haben oder an dem ein von Ihnen benannter Dritter, der nicht der Spediteur ist, das gelieferte Produkt in Besitz nimmt.",
+        "cancel_text_2":"Um von Ihrem Widerrufsrecht Gebrauch zu machen, müssen Sie uns Ihre Entscheidung durch eine klare Erklärung mitteilen. Sie können uns Ihre Entscheidung mitteilen, indem Sie:",
+        "cancel_text_3":"Durch den Besuch der Kontaktseite auf unserer Website",
+        "cancel_text_4":"Wir erstatten Ihnen spätestens 14 Tage ab dem Tag, an dem wir die zurückgegebenen Waren erhalten. Wir verwenden die gleichen Zahlungsmittel, die Sie für die Bestellung verwendet haben, und für diese Erstattung fallen keine Gebühren an."
+    },
     "SHARED":
         {
             "group_men":"MÄNNER",
@@ -97,7 +154,8 @@
                 "profile":"PROFIL",
                 "hello":"Hallo",
                 "view_all":"Alle ansehen",
-                "search":"Produktsuche"
+                "search":"Produktsuche",
+                "logout":"Logout"
             },
             "FOOTER":{
                 "newletter_signup":"Melden Sie sich für unseren Newsletter an",
