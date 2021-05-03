@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { TermsRoutingModule } from './terms-routing.module';
 import { TermsComponent } from './terms/terms.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { TermsComponent } from './terms/terms.component';
   ],
   imports: [
     CommonModule,
-    TermsRoutingModule
+    TermsRoutingModule,
+    TranslateModule
   ]
 })
 export class TermsModule { }

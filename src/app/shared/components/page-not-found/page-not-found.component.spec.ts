@@ -1,20 +1,20 @@
 // import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-// import { ShippingComponent } from './shipping.component';
+// import { PageNotFoundComponent } from './page-not-found.component';
 
-// describe('ShippingComponent', () => {
-//   let component: ShippingComponent;
-//   let fixture: ComponentFixture<ShippingComponent>;
+// describe('PageNotFoundComponent', () => {
+//   let component: PageNotFoundComponent;
+//   let fixture: ComponentFixture<PageNotFoundComponent>;
 
 //   beforeEach(async () => {
 //     await TestBed.configureTestingModule({
-//       declarations: [ ShippingComponent ]
+//       declarations: [ PageNotFoundComponent ]
 //     })
 //     .compileComponents();
 //   });
 
 //   beforeEach(() => {
-//     fixture = TestBed.createComponent(ShippingComponent);
+//     fixture = TestBed.createComponent(PageNotFoundComponent);
 //     component = fixture.componentInstance;
 //     fixture.detectChanges();
 //   });

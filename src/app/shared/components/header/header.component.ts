@@ -99,14 +99,16 @@ export class HeaderComponent implements OnInit, OnDestroy {
     if (localStorage.getItem('cartItems')){
       const cartItems: Product[] = JSON.parse(localStorage.getItem('cartItems'));
       this.cartCount = cartItems.length;
+    }else {
+      this.cartCount = 0;
     }
   }
 
-  logout(){
+  logout(): void{
     localStorage.removeItem('isUserLoggedIn');
     localStorage.removeItem('loggedInUser');
     this.router.navigateByUrl('/');
-    let currentUrl = this.router.url;
+    const currentUrl = this.router.url;
     this.router.navigateByUrl('/', {skipLocationChange: true}).then(() => {
         this.router.navigate([currentUrl]);
     });

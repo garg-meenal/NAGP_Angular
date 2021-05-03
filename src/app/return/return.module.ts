@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ReturnRoutingModule } from './return-routing.module';
 import { ReturnComponent } from './return/return.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ReturnComponent } from './return/return.component';
   ],
   imports: [
     CommonModule,
-    ReturnRoutingModule
+    ReturnRoutingModule,
+    TranslateModule
   ]
 })
 export class ReturnModule { }

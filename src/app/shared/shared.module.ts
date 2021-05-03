@@ -2,14 +2,15 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { RouterModule } from '@angular/router';
 import { CategoriesComponent } from './components/categories/categories.component';
 import { TranslateModule } from '@ngx-translate/core';
 import { LanguageDisplayNamePipe } from './pipes/language-display-name.pipe';
 import { ProductsComponent } from './components/products/products.component';
 import { ProductDetailComponent } from './components/products/product-detail/product-detail.component';
 import { FormsModule } from '@angular/forms';
-import {Ng2SearchPipe, Ng2SearchPipeModule} from 'ng2-search-filter';
+import { Ng2SearchPipeModule} from 'ng2-search-filter';
+import { SharedRoutingModule } from './shared-routing.module';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 
 
@@ -20,11 +21,12 @@ import {Ng2SearchPipe, Ng2SearchPipeModule} from 'ng2-search-filter';
   CategoriesComponent,
   LanguageDisplayNamePipe,
   ProductsComponent,
-  ProductDetailComponent],
+  ProductDetailComponent,
+  PageNotFoundComponent],
 
   imports: [
     CommonModule,
-    RouterModule,
+    SharedRoutingModule,
     TranslateModule,
     FormsModule,
     Ng2SearchPipeModule
@@ -33,7 +35,10 @@ import {Ng2SearchPipe, Ng2SearchPipeModule} from 'ng2-search-filter';
     HeaderComponent,
     FooterComponent,
     CategoriesComponent,
-    LanguageDisplayNamePipe
+    LanguageDisplayNamePipe,
+    ProductsComponent,
+    ProductDetailComponent
   ]
 })
 export class SharedModule { }
+

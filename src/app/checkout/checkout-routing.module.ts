@@ -4,11 +4,11 @@ import { CheckoutComponent } from './checkout/checkout.component';
 
 
 const routes: Routes = [
-  {path:"", component: CheckoutComponent}
+  {path: '', component: CheckoutComponent}
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class ChckoutRoutingModule { }
+export class CheckoutRoutingModule { }

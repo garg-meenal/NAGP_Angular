@@ -8,5 +8,5 @@ describe('LanguageDisplayNamePipe', () => {
 
   it('should return language display name', () => {
     expect(pipe.transform('en')).toBe('English');
-  })
+  });
 });

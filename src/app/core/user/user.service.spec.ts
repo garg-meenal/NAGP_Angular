@@ -5,12 +5,12 @@ import { User } from 'src/app/shared/models/user.model';
 
 describe('UserService', () => {
   let service: UserService;
-  let user = new User();
-        user.userName = 'test';
-        user.email = 'test@gmail.com';
-        user.language = 'en';
-        user.phoneNumber = 1234567890;
-        user.password = '123456';
+  const user = new User();
+  user.userName = 'test';
+  user.email = 'test@gmail.com';
+  user.language = 'en';
+  user.phoneNumber = 1234567890;
+  user.password = '123456';
 
   beforeEach(() => {
     TestBed.configureTestingModule({
@@ -30,7 +30,7 @@ describe('UserService', () => {
   });
 
   it('should return user by email', () => {
-    const email = 'test@gmail.com'
+    const email = 'test@gmail.com';
     service.getUserByEmail(email).subscribe(value => {
       expect(value).toEqual(user);
     });

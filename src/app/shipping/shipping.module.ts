@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ShippingRoutingModule } from './shipping-routing.module';
 import { ShippingComponent } from './shipping/shipping.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { ShippingComponent } from './shipping/shipping.component';
   ],
   imports: [
     CommonModule,
-    ShippingRoutingModule
+    ShippingRoutingModule,
+    TranslateModule
   ]
 })
 export class ShippingModule { }

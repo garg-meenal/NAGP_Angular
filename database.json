@@ -24,11 +24,19 @@
           "city": "Noida",
           "state": "Uttar Pradesh",
           "pincode": "123456"
+        },
+        {
+          "name": "roshni",
+          "street": "321 street",
+          "pinCode": "123456",
+          "city": "noida",
+          "state": "Uttar Pradesh",
+          "phoneNumber": "0987654321"
         }
       ]
     }
   ],
-  "Orders": [
+  "orders": [
     {
       "name": "Meenal Garg",
       "billingEmail": "meenalgarg@gmail.com",
@@ -82,6 +90,105 @@
         }
       ],
       "id": 2
+    },
+    {
+      "name": "Meenal Garg",
+      "billingEmail": "meenalgarg@gmail.com",
+      "shippingAddress": {
+        "id": "1",
+        "name": "Meenal Garg",
+        "phoneNumber": "1234567890",
+        "street": "123 street",
+        "city": "Noida",
+        "state": "Uttar Pradesh",
+        "pincode": "123456"
+      },
+      "products": [
+        {
+          "id": 37,
+          "name": "Black slim Jeans",
+          "category": "bottomwear",
+          "subCategory": "jeans",
+          "group": "men",
+          "price": "1299",
+          "images": [
+            "../../../../assets/images/products/men/7_0.webp",
+            "../../../../assets/images/products/men/7_1.webp"
+          ],
+          "description": "5-pocket jeans in washed denim with a regular waist, zip fly and slim legs.",
+          "color": "black",
+          "tags": "men jeans, jeans men, jeans black, black jeans, black jeans men",
+          "size": "S",
+          "quantity": "1"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Meenal Garg",
+      "billingEmail": "meenalgarg@gmail.com",
+      "shippingAddress": {
+        "id": "1",
+        "name": "Meenal Garg",
+        "phoneNumber": "1234567890",
+        "street": "123 street",
+        "city": "Noida",
+        "state": "Uttar Pradesh",
+        "pincode": "123456"
+      },
+      "products": [
+        {
+          "id": 31,
+          "name": "Cotton shirt Regular Fit",
+          "category": "topwear",
+          "subCategory": "shirt",
+          "group": "men",
+          "price": "899",
+          "images": [
+            "../../../../assets/images/products/men/1_0.webp",
+            "../../../../assets/images/products/men/1_1.webp"
+          ],
+          "description": "Short-sleeved shirt in a cotton weave with a turn-down collar and classic front.",
+          "color": "white blue",
+          "tags": "men shirt, shirt men, shirt white, white shirt, white shirt men, shirt blue, blue shirt, blue shirt men ",
+          "size": "S",
+          "quantity": "1"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Meenal Garg",
+      "billingEmail": "meenalgarg@gmail.com",
+      "shippingAddress": {
+        "id": "1",
+        "name": "Meenal Garg",
+        "phoneNumber": "1234567890",
+        "street": "123 street",
+        "city": "Noida",
+        "state": "Uttar Pradesh",
+        "pincode": "123456"
+      },
+      "products": [
+        {
+          "id": 31,
+          "name": "Cotton shirt Regular Fit",
+          "category": "topwear",
+          "subCategory": "shirt",
+          "group": "men",
+          "price": "899",
+          "images": [
+            "../../../../assets/images/products/men/1_0.webp",
+            "../../../../assets/images/products/men/1_1.webp"
+          ],
+          "description": "Short-sleeved shirt in a cotton weave with a turn-down collar and classic front.",
+          "color": "white blue",
+          "tags": "men shirt, shirt men, shirt white, white shirt, white shirt men, shirt blue, blue shirt, blue shirt men ",
+          "size": "S",
+          "quantity": "1"
+        }
+      ],
+      "id": 5
     }
   ],
   "categories": [

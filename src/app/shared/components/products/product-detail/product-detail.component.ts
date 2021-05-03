@@ -42,11 +42,6 @@ export class ProductDetailComponent implements OnInit {
   }
 
   addToCart(): void{
-    // let cart = new Cart();
-    // cart.product = this.productDetails;
-    // cart.userId = this.userService.getLoggedInUserDetails().id;
-    // this.cartService.addProductToCart(cart).subscribe();
-    // this.toastr.success('Product Added.');
     let cartItems: Product[] = [];
     if (localStorage.getItem('cartItems')){
       cartItems = JSON.parse(localStorage.getItem('cartItems'));

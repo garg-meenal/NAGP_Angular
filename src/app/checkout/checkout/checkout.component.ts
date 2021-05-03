@@ -127,6 +127,7 @@ export class CheckoutComponent implements OnInit, OnDestroy {
   }
 
   placeOrder(): void{
+    this.cartService.updateCartItemCount();
     const order: Order = new Order();
     order.name = this.loggedInUser.userName;
     order.billingEmail = this.loggedInUser.email;
@@ -134,7 +135,6 @@ export class CheckoutComponent implements OnInit, OnDestroy {
     order.products = this.cartItems;
     this.subscriptions.push(this.orderService.addOrder(order).subscribe());
     localStorage.removeItem('cartItems');
-    this.cartService.updateCartItemCount();
-    this.router.navigateByUrl('/order/confirm');
+    this.router.navigateByUrl('order/confirm');
   }
 }

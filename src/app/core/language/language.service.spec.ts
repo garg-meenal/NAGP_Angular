@@ -30,5 +30,5 @@ describe('LanguageService', () => {
 
   it('should return languages code', () => {
     expect(service.getLanguageCode('English')).toEqual('en');
-  })
+  });
 });

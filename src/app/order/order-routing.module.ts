@@ -4,7 +4,7 @@ import { OrderConfirmComponent } from './order-confirm/order-confirm.component';
 
 
 const routes: Routes = [
-  {path:"/confirm", component: OrderConfirmComponent}
+  {path: 'confirm', component: OrderConfirmComponent}
 ];
 
 @NgModule({

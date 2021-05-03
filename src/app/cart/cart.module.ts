@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CartComponent } from './cart/cart.component';
 import { TranslateModule } from '@ngx-translate/core';
+import { CartRoutingModule } from './cart-routing.module';
 
 
 
@@ -11,7 +12,8 @@ import { TranslateModule } from '@ngx-translate/core';
   ],
   imports: [
     CommonModule,
-    TranslateModule
+    TranslateModule,
+    CartRoutingModule
   ]
 })
 export class CartModule { }
