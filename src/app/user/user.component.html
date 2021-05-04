@@ -1,1 +1,94 @@
-<p>user works!</p>
+<div class="container pt-2 pb-2">
+    <div class="row">
+        <div class="mx-auto">
+            <h3><strong>{{'ACCOUNT.heading' | translate}}</strong></h3>
+        </div> 
+    </div>        
+</div>
+<div class="container pb-4">
+    <div class="row pb-4">
+        <div class="col-lg-3"></div>
+        <div class="mx-auto col-lg-6 userDetails pb-2">
+            <p><h5 class="text-center">{{'ACCOUNT.personal_details' | translate}}</h5> 
+            <table class="mx-auto">
+                <tr>
+                    <td>{{'ACCOUNT.name' | translate}}:</td>
+                    <td>{{user.userName}}</td>
+                </tr>
+                <tr>
+                    <td>{{'ACCOUNT.email' | translate}}:</td>
+                    <td>{{user.email}}</td>
+                </tr>
+                <tr>
+                    <td>{{'ACCOUNT.number' | translate}}:</td>
+                    <td>+91 {{user.phoneNumber}}</td>
+                </tr>
+                <tr>
+                    <td>{{'ACCOUNT.language' | translate}}:</td>
+                    <td>{{user.language | languageDisplayName}}</td>
+                </tr>
+            </table>
+            <!-- <p class="float-right"><a role="button" (click)="open(userModal)">{{'ACCOUNT.edit' | translate}}</a></p> -->
+        </div>
+        <div class="col-lg-3"></div>
+    </div>
+    <div class="row pt-2">
+        <div class="col-lg-3"></div>
+        <div class="mx-auto col-lg-6 userDetails text-center">
+            <p><h5>{{'ACCOUNT.address_details' | translate}}</h5>
+            <ul *ngFor="let add of user.address">
+                <li>{{add.name}}, {{add.street}}, {{add.city}}, {{add.state}}, {{add.pincode}}, <i class="fa fa-phone"> +91{{add.phoneNumber}}</i>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-3"></div>
+    </div>
+</div>
+<!-- Edit User-->
+<!-- <ng-template #userModal let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">{{'ACCOUNT.edit_personal' | translate}}</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form>
+        <div class="form-group">
+            <div class="form-group-row">
+                <label for="editName" class="col-sm-6 col-form-label">{{'ACCOUNT.name' | translate}}</label>
+                    <input type="text" id="editName" required class="form-control" placeholder="{{'ACCOUNT.name' | translate}}"
+                    name="editName" [(ngModel)]="user.userName" #name = "ngModel" [ngClass]="{'is-invalid':name.touched && !name.valid}"
+                    pattern="^(\w\w+)\s*(\w+)$">
+                    <span>
+                        <small class="text-danger" *ngIf="name.touched && name.errors?.required">{{'SIGNUP.name_required' | translate}}</small>
+                        <small class="text-danger" *ngIf="name.touched && name.errors?.pattern">{{'SIGNUP.name_invalid' | translate}}</small>
+                    </span>
+            </div>
+            <div class="form-group-row">
+                <label for="editEmail" class="col-sm-6 col-form-label">{{'ACCOUNT.email' | translate}}</label>
+                    <input type="text" id="editEmail" class="form-control" placeholder="{{'ACCOUNT.email' | translate}}"
+                    name="editEmail" email [(ngModel)]="user.email" #email = "ngModel" [ngClass]="{'is-invalid':email.touched && !email.valid}">
+                <span>
+                    <small class="text-danger" *ngIf="email.touched && email.errors?.required">{{'LOGIN.email_required' | translate}}</small>
+                    <small class="text-danger" *ngIf="email.touched && email.errors?.email">{{'LOGIN.email_invalid' | translate}}</small>
+                </span>
+            </div>
+            <div class="form-group-row">
+                <label for="editNumber" class="col-sm-6 col-form-label">{{'ACCOUNT.number' | translate}}</label>
+                <input type="text" name="phone" required class="form-control" placeholder="{{'ACCOUNT.number' | translate}}"
+                [(ngModel)]="user.phoneNumber" #phone = "ngModel" [ngClass]="{'is-invalid':phone.touched && !phone.valid}"
+                maxlength="10" pattern="[0-9]{10}">
+                <span>
+                    <small class="text-danger" *ngIf="phone.touched && phone.errors?.required">{{'SIGNUP.phone_required' | translate}}</small>
+                    <small class="text-danger" *ngIf="phone.touched && phone.errors?.pattern">{{'SIGNUP.phone_invalid' | translate}}</small>
+                </span>
+            </div>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" (click)="modal.close('Close click')">{{'ACCOUNT.cancel' | translate}}</button>
+      <button type="button" class="btn btn-outline-dark" (click)="editPersonalDetails()">{{'ACCOUNT.update' | translate}}</button>
+    </div>
+  </ng-template> -->

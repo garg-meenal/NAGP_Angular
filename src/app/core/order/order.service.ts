@@ -14,4 +14,8 @@ export class OrderService {
   addOrder(order: Order): Observable<Order>{
     return this.http.post<Order>(this.URL, order);
   }
+
+  getAllOrdersOfUser(email: string): Observable<Order[]>{
+    return this.http.get<Order[]>(this.URL + '?billingEmail=' +email);
+  }
 }

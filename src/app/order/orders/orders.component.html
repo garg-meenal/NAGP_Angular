@@ -1,0 +1,36 @@
+<div class="container pt-2 pb-2">
+    <div class="row">
+        <div class="mx-auto">
+            <h3><strong>{{'ORDER.order_summary' | translate}}</strong></h3>
+        </div> 
+    </div>        
+</div>
+<div class="container">
+    <div class="row" *ngFor="let order of allOrders">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8 orders">
+            <div class="card">
+                <div class="card-header">
+                  <p class="float-left"><strong>{{order.orderStatus | titlecase}}</strong></p>
+                  <p class="float-right">Placed On: {{order.orderPlacedOn | date}}</p>
+                </div>
+                <div class="card-body" style="background-color: #f4def5;padding-bottom: 0px;">
+                  <div class="row pb-4" *ngFor="let item of order.products">
+                    <div class="col-lg-1"></div>
+                    <div class="image-container col-lg-2">
+                        <a [routerLink]="['/product/details', item.id]"><img [src]="item.images[0]"></a>
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="item-container col-lg-8">
+                        <p><strong>{{item.name}}</strong></p>
+                        <p>{{'CART.size' | translate}}: {{item.size}}</p>
+                        <p>{{'CART.quantity' | translate}}: {{item.quantity}}</p>
+                        <p><strong>{{'CART.total' | translate}}: {{item.price*item.quantity | currency:'INR'}}</strong></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>  
+</div>

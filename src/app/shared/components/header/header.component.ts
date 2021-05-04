@@ -96,11 +96,10 @@ export class HeaderComponent implements OnInit, OnDestroy {
   }
 
   updateCartCount(flag: boolean): void{
+    this.cartCount = 0;
     if (localStorage.getItem('cartItems')){
       const cartItems: Product[] = JSON.parse(localStorage.getItem('cartItems'));
       this.cartCount = cartItems.length;
-    }else {
-      this.cartCount = 0;
     }
   }
 

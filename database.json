@@ -6,6 +6,7 @@
       "email": "meenalgarg@gmail.com",
       "password": "123456",
       "language": "en",
+      "phoneNumber": "0987654321",
       "address": [
         {
           "id": "1",
@@ -56,9 +57,26 @@
           "description": "Short-sleeved shirt in a cotton weave with a turn-down collar and classic front.",
           "size": "S",
           "quantity": "1"
+        },
+        {
+          "id": 7,
+          "name": "Cropped Shirt",
+          "category": "topwear",
+          "subCategory": "shirt",
+          "group": "women",
+          "price": "799",
+          "images": [
+            "../../../../assets/images/products/women/7_0.webp",
+            "../../../../assets/images/products/women/7_1.webp"
+          ],
+          "description": "Cropped shirt in woven fabric with a collar, buttons down the front and short, wide sleeves.",
+          "size": "S",
+          "quantity": "1"
         }
       ],
-      "id": 1
+      "id": 1,
+      "orderStatus": "ORDER PLACED",
+      "orderPlacedOn": "2021-05-03T14:02:30.998Z"
     },
     {
       "name": "Meenal Garg",
@@ -89,7 +107,9 @@
           "quantity": "1"
         }
       ],
-      "id": 2
+      "id": 2,
+      "orderStatus": "ORDER PLACED",
+      "orderPlacedOn": "2021-05-03T14:02:30.998Z"
     },
     {
       "name": "Meenal Garg",
@@ -122,7 +142,9 @@
           "quantity": "1"
         }
       ],
-      "id": 3
+      "id": 3,
+      "orderStatus": "ORDER PLACED",
+      "orderPlacedOn": "2021-05-03T14:02:30.998Z"
     },
     {
       "name": "Meenal Garg",
@@ -138,57 +160,26 @@
       },
       "products": [
         {
-          "id": 31,
-          "name": "Cotton shirt Regular Fit",
-          "category": "topwear",
-          "subCategory": "shirt",
-          "group": "men",
-          "price": "899",
+          "id": 24,
+          "name": "Chunky shoes",
+          "category": "footwear",
+          "subCategory": "shoes",
+          "group": "women",
+          "price": "1699",
           "images": [
-            "../../../../assets/images/products/men/1_0.webp",
-            "../../../../assets/images/products/men/1_1.webp"
+            "../../../../assets/images/products/women/24_0.webp",
+            "../../../../assets/images/products/women/24_1.webp"
           ],
-          "description": "Short-sleeved shirt in a cotton weave with a turn-down collar and classic front.",
-          "color": "white blue",
-          "tags": "men shirt, shirt men, shirt white, white shirt, white shirt men, shirt blue, blue shirt, blue shirt men ",
+          "description": "Trainers with a padded edge and tongue, and lacing at the front. Mesh linings and insoles and chunky soles.",
+          "color": "beige",
+          "tags": "women shoes, shoes women, shoes beige, beige shoes, beige shoes women",
           "size": "S",
           "quantity": "1"
         }
       ],
-      "id": 4
-    },
-    {
-      "name": "Meenal Garg",
-      "billingEmail": "meenalgarg@gmail.com",
-      "shippingAddress": {
-        "id": "1",
-        "name": "Meenal Garg",
-        "phoneNumber": "1234567890",
-        "street": "123 street",
-        "city": "Noida",
-        "state": "Uttar Pradesh",
-        "pincode": "123456"
-      },
-      "products": [
-        {
-          "id": 31,
-          "name": "Cotton shirt Regular Fit",
-          "category": "topwear",
-          "subCategory": "shirt",
-          "group": "men",
-          "price": "899",
-          "images": [
-            "../../../../assets/images/products/men/1_0.webp",
-            "../../../../assets/images/products/men/1_1.webp"
-          ],
-          "description": "Short-sleeved shirt in a cotton weave with a turn-down collar and classic front.",
-          "color": "white blue",
-          "tags": "men shirt, shirt men, shirt white, white shirt, white shirt men, shirt blue, blue shirt, blue shirt men ",
-          "size": "S",
-          "quantity": "1"
-        }
-      ],
-      "id": 5
+      "orderStatus": "ORDER PLACED",
+      "orderPlacedOn": "2021-05-03T14:02:30.998Z",
+      "id": 6
     }
   ],
   "categories": [

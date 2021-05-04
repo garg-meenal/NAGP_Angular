@@ -82,8 +82,22 @@
     },
     "ORDER":{
         "heading":"Thank you for shopping with us.",
-        "order_text":"You can see your order details under profile --> order.",
-        "home":"Go to home page"
+        "order_text":"You can see your order details under:",
+        "home":"Go to home page",
+        "order_summary":"Order Summary"
+    },
+    "ACCOUNT":{
+        "heading":"Account Details",
+        "name":"Name",
+        "email":"Email",
+        "number":"Phone Number",
+        "language":"Language",
+        "personal_details":"Personal Details",
+        "address_details":"Address Details",
+        "edit":"Edit",
+        "edit_personal":"Edit Personal Detail",
+        "cancel":"Cancel",
+        "update":"Update"
     },
     "TERMS":{
         "heading":"Terms of Use",
@@ -141,6 +155,9 @@
         "cancel_text_2":"In order to exercise Your right of cancellation, You must inform Us of your decision by means of a clear statement. You can inform us of your decision by:",
         "cancel_text_3":"By visiting contact page on our website",
         "cancel_text_4":"We will reimburse You no later than 14 days from the day on which We receive the returned Goods. We will use the same means of payment as You used for the Order, and You will not incur any fees for such reimbursement."
+    },
+    "PROFILE":{
+        "heading":"Your Profile"
     },
     "SHARED":
         {

@@ -8,7 +8,7 @@
 <div class="container pt-4 pb-4">
     <div class="row">
         <div class="col-lg-8">
-            <div class="billing-container" style="background-color: #f4def5;">
+            <div class="billing-container">
                 <h4>{{'CHECKOUT.billing_info' | translate}}:</h4>
                 <table>
                     <tr>
@@ -21,7 +21,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="shipping-container" style="background-color: #f4def5;">
+            <div class="shipping-container">
                 <h4>{{'CHECKOUT.shipping_info' | translate}}:</h4>
                 <!--Show available address-->
                 <h5 *ngIf="deliveryAddresses">{{'CHECKOUT.select_address' | translate}}:</h5>
@@ -37,7 +37,7 @@
                 <button type="button" class="btn btn-primary mt-2 mb-2 mx-auto" (click)="open(addressModal)">{{'CHECKOUT.add_address' | translate}}</button>
             </div>
         </div>
-        <div class="col-lg-4 order-container" style="background-color: #f4def5;">
+        <div class="col-lg-4 order-container">
             <h4>{{'CHECKOUT.order_info' | translate}}:</h4>
             <ul *ngIf="cartItems">
                 <li *ngFor="let item of cartItems">

@@ -31,6 +31,7 @@ export class SignupComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
+    debugger;
     this.newUser = new User();
     this.errorMessage = '';
     this.languages = this.languageService.getAllSupportedLanguages();

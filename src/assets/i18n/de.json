@@ -82,8 +82,22 @@
     },
     "ORDER":{
         "heading":"Danke für ihren Einkauf.",
-        "order_text":"Sie können Ihre Bestelldaten unter Profil -> Bestellung sehen.",
-        "home":"Zur Homepage gehen"
+        "order_text":"Ihre Bestelldaten finden Sie unter:",
+        "home":"Zur Homepage gehen",
+        "order_summary":"Bestellübersicht"
+    },
+    "ACCOUNT":{
+        "heading":"Kontodetails",
+        "name":"Name",
+        "email":"Email",
+        "number":"Telefonnummer",
+        "language":"Sprache",
+        "personal_details":"Persönliche Daten",
+        "address_details":"Adressen Details",
+        "edit":"Bearbeiten",
+        "edit_personal":"Persönliche Details bearbeiten",
+        "cancel":"Stornieren",
+        "update":"Aktualisieren"
     },
     "TERMS":{
         "heading":"Nutzungsbedingungen",
@@ -141,6 +155,9 @@
         "cancel_text_2":"Um von Ihrem Widerrufsrecht Gebrauch zu machen, müssen Sie uns Ihre Entscheidung durch eine klare Erklärung mitteilen. Sie können uns Ihre Entscheidung mitteilen, indem Sie:",
         "cancel_text_3":"Durch den Besuch der Kontaktseite auf unserer Website",
         "cancel_text_4":"Wir erstatten Ihnen spätestens 14 Tage ab dem Tag, an dem wir die zurückgegebenen Waren erhalten. Wir verwenden die gleichen Zahlungsmittel, die Sie für die Bestellung verwendet haben, und für diese Erstattung fallen keine Gebühren an."
+    },
+    "PROFILE":{
+        "heading":"Your Profile"
     },
     "SHARED":
         {

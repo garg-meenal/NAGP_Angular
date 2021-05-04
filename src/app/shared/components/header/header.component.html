@@ -10,7 +10,7 @@
                   <a routerLink="/signup">{{'SHARED.HEADER.signup' | translate}}</a>
                 </li>
                 <li *ngIf= "isUserLoggedIn == 'yes'" class="list-inline-item">
-                  <a routerLink="/user">{{'SHARED.HEADER.hello' | translate}} {{firstName}}</a>
+                  <a routerLink="/profile">{{'SHARED.HEADER.hello' | translate}} {{firstName}}</a>
                 </li>
                 <li *ngIf= "isUserLoggedIn == 'yes'" class="list-inline-item">
                   <a (click)="logout()">{{'SHARED.HEADER.logout' | translate}}</a>

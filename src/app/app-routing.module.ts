@@ -6,11 +6,13 @@ import { PageNotFoundComponent } from './shared/components/page-not-found/page-n
 
 const routes: Routes = [
   {path: 'shop', loadChildren: () => import('./shared/shared.module').then(m => m.SharedModule)},
-  {path: 'user', loadChildren: () => import('./user/user.module').then(m => m.UserModule)},
+  {path: 'user', loadChildren: () => import('./user/user.module').then(m => m.UserModule),
+    canActivate: [AuthGuard]},
   {path: 'login', loadChildren: () => import('./login/login.module').then(m => m.LoginModule)},
   {path: 'contact', loadChildren: () => import('./contact/contact.module').then(m => m.ContactModule)},
   {path: 'signup', loadChildren: () => import('./signup/signup.module').then(m => m.SignupModule)},
-  {path: 'profile', loadChildren: () => import('./profile/profile.module').then(m => m.ProfileModule)},
+  {path: 'profile', loadChildren: () => import('./profile/profile.module').then(m => m.ProfileModule),
+  canActivate: [AuthGuard]},
   {path: 'product', loadChildren: () => import('./shared/shared.module').then(m => m.SharedModule)},
   {path: 'cart', loadChildren: () => import('./cart/cart.module').then(m => m.CartModule),
     canActivate: [AuthGuard]},
@@ -21,7 +23,8 @@ const routes: Routes = [
   {path: 'shipping', loadChildren: () => import('./shipping/shipping.module').then(m => m.ShippingModule)},
   {path: 'return', loadChildren: () => import('./return/return.module').then(m => m.ReturnModule)},
   {path: 'cancellation', loadChildren: () => import('./cancellation/cancellation.module').then(m => m.CancellationModule)},
-  {path: 'order', loadChildren: () => import('./order/order.module').then(m => m.OrderModule)},
+  {path: 'order', loadChildren: () => import('./order/order.module').then(m => m.OrderModule),
+    canActivate: [AuthGuard]},
   {path: '', redirectTo: 'shop', pathMatch: 'full'},
   {path: '**', component: PageNotFoundComponent}
 ];

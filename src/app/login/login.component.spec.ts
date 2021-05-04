@@ -13,17 +13,25 @@ const RouterSpy = jasmine.createSpyObj(
     ['navigate']
   );
 
+class MockUserService{
+    user = [
+        {"id": 1,
+        "userName": "Meenal Garg",
+        "email": "meenalgarg@gmail.com",
+        "password": "123456",
+        "language": "en"}];
+    
+    getUserByEmail(email: string){
+        return of(this.user);
+    }
+}
+
 
 describe('LoginComponent', () => {
   let component: LoginComponent;
   let fixture: ComponentFixture<LoginComponent>;
-  let MockUserService;
-  let user = [
-      {"id": 1,
-      "userName": "Meenal Garg",
-      "email": "meenalgarg@gmail.com",
-      "password": "123456",
-      "language": "en"}];
+  let userService: UserService;
+  
 
   beforeEach(async () => {
     TestBed.configureTestingModule({
@@ -41,8 +49,8 @@ describe('LoginComponent', () => {
             },
         }, },
         { provide: Router, useValue: RouterSpy },
-        { provide: UserService, useValue: MockUserService }
-        ]
+        { provide: UserService, useClass: MockUserService }
+        ]  
     })
     .compileComponents();
   });
@@ -51,7 +59,7 @@ describe('LoginComponent', () => {
     fixture = TestBed.createComponent(LoginComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
-    MockUserService = jasmine.createSpyObj(UserService, {'getUserByEmail': of(user)});
+    userService = TestBed.inject(UserService); 
   });
 
   it('should create', () => {

@@ -9,6 +9,7 @@ import { Order } from 'src/app/shared/models/order.model';
 import { OrderService } from 'src/app/core/order/order.service';
 import { Router } from '@angular/router';
 import { CartService } from 'src/app/core/cart/cart.service';
+import { OrderStatus } from 'src/app/shared/enums/order.status.enum';
 
 @Component({
   selector: 'app-checkout',
@@ -133,6 +134,8 @@ export class CheckoutComponent implements OnInit, OnDestroy {
     order.billingEmail = this.loggedInUser.email;
     order.shippingAddress = this.selectedAddress;
     order.products = this.cartItems;
+    order.orderStatus = OrderStatus.ORDER_PLACED;
+    order.orderPlacedOn = new Date();
     this.subscriptions.push(this.orderService.addOrder(order).subscribe());
     localStorage.removeItem('cartItems');
     this.router.navigateByUrl('order/confirm');
