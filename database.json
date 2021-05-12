@@ -687,21 +687,6 @@
       "tags": "women belt, belt women, belt brown, brown belt, brown belt women"
     },
     {
-      "id": 30,
-      "name": "Black analog watch",
-      "category": "accessories",
-      "subCategory": "watch",
-      "group": "women",
-      "price": "5999",
-      "images": [
-        "../../../../assets/images/products/women/30_0.webp",
-        "../../../../assets/images/products/women/30_1.webp"
-      ],
-      "description": "This 34mm Daisy features a black sunray dial, three-hand movement and a black leather strap.",
-      "color": "black",
-      "tags": "women watch, watch women, watch black, black watch, black watch women"
-    },
-    {
       "id": 31,
       "name": "Cotton shirt Regular Fit",
       "category": "topwear",
@@ -1002,21 +987,6 @@
       "tags": "men belt, belt men, belt brown, brown belt, brown belt men"
     },
     {
-      "id": 51,
-      "name": "Analog-Digital Black DialWatch",
-      "category": "accessories",
-      "subCategory": "watch",
-      "group": "men",
-      "price": "4999",
-      "images": [
-        "../../../../assets/images/products/men/21_0.webp",
-        "../../../../assets/images/products/men/21_1.webp"
-      ],
-      "description": "Dial color: black, case shape: round, dial glass material: acrylic",
-      "color": "black",
-      "tags": "men watch, watch men, watch black, black watch, black watch men"
-    },
-    {
       "id": 52,
       "name": "Printed T-shirt",
       "category": "topwear",
@@ -1285,36 +1255,6 @@
       "description": "Belt in regenerated leather with a metal buckle. Width approx. 3 cm.",
       "color": "brown",
       "tags": "kids belt, belt kids, belt brown, brown belt, brown belt kids"
-    },
-    {
-      "id": 70,
-      "name": "Analog watch",
-      "category": "accessories",
-      "subCategory": "watch",
-      "group": "kids",
-      "price": "699",
-      "images": [
-        "../../../../assets/images/products/kids/19_0.webp",
-        "../../../../assets/images/products/kids/19_1.webp"
-      ],
-      "description": "Add a unique touch of individuality to your style statement by pairing this watch with any outfit of your choice",
-      "color": "black",
-      "tags": "kids watch, watch kids, watch black, black watch, black watch kids"
-    },
-    {
-      "id": 71,
-      "name": "Analog Pink Dial Watch",
-      "category": "accessories",
-      "subCategory": "watch",
-      "group": "kids",
-      "price": "499",
-      "images": [
-        "../../../../assets/images/products/kids/20_0.webp",
-        "../../../../assets/images/products/kids/20_1.webp"
-      ],
-      "description": "Dial Color: Pink, Case Shape: Round, Band Color: Pink, Band Material: Plastic",
-      "color": "pink",
-      "tags": "kids watch, watch kids, watch pink, pink watch, pink watch kids"
     }
   ]
 }
