@@ -180,6 +180,41 @@
       "orderStatus": "ORDER PLACED",
       "orderPlacedOn": "2021-05-03T14:02:30.998Z",
       "id": 6
+    },
+    {
+      "name": "Meenal Garg",
+      "billingEmail": "meenalgarg@gmail.com",
+      "shippingAddress": {
+        "id": "1",
+        "name": "Meenal Garg",
+        "phoneNumber": "1234567890",
+        "street": "123 street",
+        "city": "Noida",
+        "state": "Uttar Pradesh",
+        "pincode": "123456"
+      },
+      "products": [
+        {
+          "id": 3,
+          "name": "Oversized T-shirt",
+          "category": "topwear",
+          "subCategory": "t-shirt",
+          "group": "women",
+          "price": "1299",
+          "images": [
+            "../../../../assets/images/products/women/3_0.webp",
+            "../../../../assets/images/products/women/3_1.webp"
+          ],
+          "description": "Oversized T-shirt in printed cotton jersey with dropped shoulders and wide, elbow-length sleeves.",
+          "color": "purple",
+          "tags": "women tshirt, tshirt women, tshirt purple, purple tshirt, purple tshirt women, round neck tshirt, women t-shirt, t-shirt women, t-shirt purple, purple t-shirt, purple t-shirt women, round neck t-shirt ",
+          "size": "S",
+          "quantity": "1"
+        }
+      ],
+      "orderStatus": "ORDER PLACED",
+      "orderPlacedOn": "2021-05-06T14:28:41.337Z",
+      "id": 7
     }
   ],
   "categories": [

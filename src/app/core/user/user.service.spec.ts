@@ -11,6 +11,7 @@ describe('UserService', () => {
   user.language = 'en';
   user.phoneNumber = 1234567890;
   user.password = '123456';
+  user.id = 100;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
@@ -34,5 +35,12 @@ describe('UserService', () => {
     service.getUserByEmail(email).subscribe(value => {
       expect(value).toEqual(user);
     });
+  });
+
+  it('should return deleted user', () => {
+    const id = 100;
+    service.deleteUser(id).subscribe(value => {
+      expect(value).toEqual(user);
+    })
   });
 });

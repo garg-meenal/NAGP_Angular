@@ -45,8 +45,13 @@ export class LoginComponent implements OnInit, OnDestroy {
     this.subscriptions.push(
       this.userService.getUserByEmail(this.emailId).subscribe(
         (data: User) => {
-          console.log('test');
-           this.loggedInUser = data[0];
+          if(data != null){
+            if (data[0]){
+              this.loggedInUser = data[0];
+            }else if (data){
+              this.loggedInUser = data;
+            }
+          }
            if (this.loggedInUser){
              if (this.loggedInUser.password === this.password){
                localStorage.setItem('isUserLoggedIn', 'yes');
