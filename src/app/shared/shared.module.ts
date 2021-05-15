@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 import { Ng2SearchPipeModule} from 'ng2-search-filter';
 import { SharedRoutingModule } from './shared-routing.module';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { OrderByPipe } from './pipes/order-by.pipe';
 
 
 
@@ -22,7 +23,8 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
   LanguageDisplayNamePipe,
   ProductsComponent,
   ProductDetailComponent,
-  PageNotFoundComponent],
+  PageNotFoundComponent,
+  OrderByPipe],
 
   imports: [
     CommonModule,
@@ -37,7 +39,8 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     CategoriesComponent,
     LanguageDisplayNamePipe,
     ProductsComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    OrderByPipe
   ]
 })
 export class SharedModule { }

@@ -4,6 +4,7 @@ import { OrderConfirmComponent } from './order-confirm/order-confirm.component';
 import { TranslateModule } from '@ngx-translate/core';
 import { OrderRoutingModule } from './order-routing.module';
 import { OrdersComponent } from './orders/orders.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -15,7 +16,8 @@ import { OrdersComponent } from './orders/orders.component';
   imports: [
     CommonModule,
     TranslateModule,
-    OrderRoutingModule
+    OrderRoutingModule,
+    SharedModule
   ]
 })
 export class OrderModule { }

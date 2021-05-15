@@ -215,6 +215,74 @@
       "orderStatus": "ORDER PLACED",
       "orderPlacedOn": "2021-05-06T14:28:41.337Z",
       "id": 7
+    },
+    {
+      "name": "Meenal Garg",
+      "billingEmail": "meenalgarg@gmail.com",
+      "shippingAddress": {
+        "name": "roshni",
+        "street": "321 street",
+        "pinCode": "123456",
+        "city": "noida",
+        "state": "Uttar Pradesh",
+        "phoneNumber": "0987654321"
+      },
+      "products": [
+        {
+          "id": 12,
+          "name": "V-neck Shirt",
+          "category": "topwear",
+          "subCategory": "shirt",
+          "group": "women",
+          "price": "1299",
+          "images": [
+            "../../../../assets/images/products/women/12_0.webp",
+            "../../../../assets/images/products/women/12_1.webp"
+          ],
+          "description": "V-neck blouse in woven fabric with a sheen. Collar, buttons down the front, long sleeves and a rounded hem.",
+          "color": "green",
+          "tags": "women shirt, shirt women, shirt green, green shirt, green shirt women ",
+          "size": "S",
+          "quantity": "1"
+        }
+      ],
+      "orderStatus": "ORDER PLACED",
+      "orderPlacedOn": "2021-05-15T07:02:24.715Z",
+      "id": 8
+    },
+    {
+      "name": "Meenal Garg",
+      "billingEmail": "meenalgarg@gmail.com",
+      "shippingAddress": {
+        "name": "roshni",
+        "street": "321 street",
+        "pinCode": "123456",
+        "city": "noida",
+        "state": "Uttar Pradesh",
+        "phoneNumber": "0987654321"
+      },
+      "products": [
+        {
+          "id": 11,
+          "name": "Cotton shirt",
+          "category": "topwear",
+          "subCategory": "shirt",
+          "group": "women",
+          "price": "999",
+          "images": [
+            "../../../../assets/images/products/women/11_0.webp",
+            "../../../../assets/images/products/women/11_1.webp"
+          ],
+          "description": "Shirt in airy cotton with a collar, buttons down the front, long sleeves with buttoned cuffs, and a rounded hem.",
+          "color": "pink",
+          "tags": "women shirt, shirt women, shirt pink, pink shirt, pink shirt women ",
+          "size": "S",
+          "quantity": "1"
+        }
+      ],
+      "orderStatus": "ORDER PLACED",
+      "orderPlacedOn": "2021-05-15T07:03:41.873Z",
+      "id": 9
     }
   ],
   "categories": [

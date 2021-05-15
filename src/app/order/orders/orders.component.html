@@ -6,7 +6,7 @@
     </div>        
 </div>
 <div class="container">
-    <div class="row" *ngFor="let order of allOrders">
+    <div class="row" *ngFor="let order of allOrders | orderBy : ['-orderPlacedOn']">
         <div class="col-lg-2"></div>
         <div class="col-lg-8 orders">
             <div class="card">
